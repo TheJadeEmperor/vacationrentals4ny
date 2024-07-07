@@ -34,12 +34,13 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 							<li><a href="#gallery">Gallery</a></li>
 							<li><a href="#for_sale">For Sale</a></li> 
 						</ul>-->
+						
 						<ul class="actions stacked">
 
-							<li><a href="#" class="button primary fit">Home</a></li>
-							<li><a href="#gallery" class="button fit">Gallery</a></li>
-							<li><a href="#for_sale" class="button primary fit">For Sale</a></li>
-							<li><a href="#tours" class="button fit">Tours</a></li>
+							<li><a href="#" class="button primary fit scrolly">Home</a></li>
+							<li><a href="#gallery" class="button fit scrolly">Gallery</a></li>
+							<li><a href="#tours" class="button primary fit scrolly">Tours</a></li>
+							<li><a href="#for_sale" class="button fit scrolly">For Sale</a></li>
 						</ul>
 					</nav>
 
@@ -126,7 +127,7 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 										<img src="images/airbnb1/bed_2.jpg" alt="" />
 									</span>
 									<header class="major">
-										<a href="images/airbnb1/bed_2.jpg" class="link">Bedroom<p>room is highly decorated and fit for royalty</p></a>
+									<h3><a href="images/airbnb1/bed_2.jpg" class="link">Bedroom</h3><p>Room is highly decorated and fit for royalty</p></a>
 									</header>
 								</article>
 								<article>
@@ -170,7 +171,7 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 								<header class="major">
 									<h3>Explore Brooklyn’s famous Coney Island</h3>
 								</header>
-								<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk see the lighthouse and the parachute tower and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
+								<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
 								<ul class="actions">
 									<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
 									<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
