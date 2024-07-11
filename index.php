@@ -178,7 +178,25 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 								</ul>
 							</div>
 						</div>
-					</section>
+						</section>
+
+						<section>
+						<a href="https://www.airbnb.com/experiences/4496855" class="image">
+							<img src="images/japan.jpg" alt="" data-position="25% 25%" />
+						</a>
+						<div class="content">
+							<div class="inner">
+								<header class="major">
+									<h3>Get a Taste Of Japan At Japan Village</h3>
+								</header>
+								<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+								<ul class="actions">
+									<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
+									<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+								</ul>
+							</div>
+						</div>
+						</section>
 </section>
 
 
