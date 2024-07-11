@@ -207,9 +207,7 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 									<h2>Household Items for Sale</h2>
 								</header>
 								<p>We have many products available for sale. During you stay, you can ask about these items. We accept cash, zelle or venmo.</p>
-								<ul class="actions">
-									<li><a href="landing.html" class="button next">Get Started</a></li>
-								</ul>
+								 
 							</div>
 						</section>
 
@@ -393,12 +391,12 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-airbnb"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-ebay"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.airbnb.com/rooms/841300394500737442?source_impression_id=p3_1719790415_P36temSnhYUDm2Le" class="icon brands alt fa-airbnb" target="_BLANK"><span class="label">Airbnb</span></a></li>
+								<li><a href="https://www.ebay.com/usr/random_stuff_in_house" class="icon brands alt fa-ebay" target="_BLANK"><span class="label">ebay</span></a></li>
+								<li><a href="https://github.com/TheJadeEmperor/" class="icon brands alt fa-github" target="_BLANK"><span class="label">GitHub</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; South Brooklyn Airbnb </li><li>Design: <a href="https:/benjaminlouie.com">BL Web Solutions</a></li>
+								<li>&copy; South Brooklyn Airbnb </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
 							</ul>
 						</div>
 					</footer>
