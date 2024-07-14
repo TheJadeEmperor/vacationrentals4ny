@@ -215,40 +215,8 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 
 				<section id="" class="spotlights">
 					
-					<section>
-						<a href="https://www.ebay.com/itm/296438901096?itmmeta=01J24BHH2BA1W5W4H4YY0R4WZ0&hash=item450522a968:g:eA4AAOSwokFmRuaQ" class="image">
-							<img src="images/for_sale/spike_shoe_1.jpg" alt="" data-position="top center" />
-						</a>
-						<div class="content">
-							<div class="inner">
-								<header class="major">
-									<h3>Nike shoes size 9 athletic sneakers with spikes</h3>
-								</header>
-								<p>Elevate your game with these Nike Air athletic sneakers in a stylish green colorway. Designed for men, these shoes come in size 9 and feature slip-resistant spikes on the bottom for added traction during your workouts or games. The customized aspect of these sneakers allows you to show off your unique style without sacrificing performance. These shoes are perfect for any athlete who wants to take their game to the next level. With a product line as reputable as Nike Air, you can trust that these sneakers will not only look great but perform even better. Don't let the competition get ahead of you, grab a pair of these shoes and dominate the field!</p>
-								<ul class="actions">
-									<li><a href="https://www.ebay.com/itm/296438901096?itmmeta=01J24BHH2BA1W5W4H4YY0R4WZ0&hash=item450522a968:g:eA4AAOSwokFmRuaQ" class="button">Get it Now</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<a href="https://www.ebay.com/itm/296527627059?itmmeta=01J24BHH2BGFXP24KR6Z1J0Z00&hash=item450a6c8333:g:-pgAAOSw5gZmhHP-" class="image">
-							<img src="images/for_sale/seagate_wire.jpg" alt="" data-position="25% 25%" />
-						</a>
-						<div class="content">
-							<div class="inner">
-								<header class="major">
-									<h3>Seagate USB Cable - High-Speed Data Transfer</h3>
-								</header>
-								<p>Upgrade your data transfer experience with this high-speed Seagate USB cable. Designed for durability and reliability, this cable ensures efficient and seamless connectivity for all your devices.</p>
-								<ul class="actions">
-									<li><a href="https://www.ebay.com/itm/296527627059?itmmeta=01J24BHH2BGFXP24KR6Z1J0Z00&hash=item450a6c8333:g:-pgAAOSw5gZmhHP-" class="button">Get it Now</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-					
+				 
+				 
 
 <?php
 	
