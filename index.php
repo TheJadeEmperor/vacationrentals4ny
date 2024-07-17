@@ -249,6 +249,25 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 	}
 
 
+	$gucci = array(
+		'type' => 'B',
+		'url' => 'https://www.ebay.com/itm/296573714626',
+		'title' => 'Gucci Belt - Authentic Leather - Iconic GG Buckle - Size 46/115',
+		'img' => 'gucci_1.jpg',
+		'desc' => "<p>Upgrade your wardrobe with this authentic Gucci leather belt, featuring the iconic GG buckle. Known for its luxurious materials and timeless designs, a Gucci belt is an essential accessory for any fashion-forward individual.
+
+Key Features:
+
+Authentic Designer: Genuine Gucci belt, ensuring top-tier quality and exquisite craftsmanship.
+Premium Leather: Made from high-quality leather, offering both durability and a refined look.
+Iconic GG Buckle: Features the signature double GG buckle, a hallmark of Gucci's timeless style.
+Versatile Fashion: Perfect for both formal and casual wear, this belt elevates any outfit with a touch of luxury. This belt is in excellent condition, with minimal signs of wear and no visible damage.
+Enhance your accessory collection with this classic Gucci belt. Its timeless design and superior quality make it a must-have for any style enthusiast. Don't miss out on the opportunity to own this luxurious piece. Order now and experience the elegance of Gucci!</p>",
+	);
+
+	echo saleModule($gucci);
+
+
 	$ballistix = array(
 		'type' => 'B',
 		'url' => 'https://www.ebay.com/itm/296552476035',
