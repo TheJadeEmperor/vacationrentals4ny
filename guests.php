@@ -1,3 +1,7 @@
+
+<?php
+$adminEmail = 'kaiba.corporation.llc@gmail.com';
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -93,28 +97,32 @@
 
 						<nav class="navbar">
 						 
+							 
 							<div class="navbar-links">
 								<ul>
-									<li><a href="./">Hosts</a></li>
-									<li><a href="./guests.php">Guests</a></li>
-									<li><a href="./guests.php#tours">Tours</a></li>
+									<li><a href="#brooklyn">Brooklyn</a></li>
+									<li><a href="#charlotte">Charlotte</a></li>
+									<li><a href="#tours">Tours</a></li>
 									<li><a href="#contact">Contact</a></li>
 								</ul>
 							</div>
 						</nav>
+						
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
+
 				<!-- Menu -->
 					<nav id="menu">
+ 
 						<ul class="actions stacked">
 
-							<li><a href="./" class="button primary fit scrolly">Hosts</a></li>
-							<li><a href="./guests.php" class="button fit scrolly">Guests</a></li>
-							<li><a href="./guests.php#tours" class="button primary fit scrolly">Tours</a></li>
-							<li><a href="#contact" class="button fit scrolly">Contact</a></li>
+							<li><a href="#brooklyn" class="button primary fit scrolly">Brooklyn</a></li>
+							<li><a href="#charlotte" class="button fit scrolly">Charlotte</a></li>
+							<li><a href="#tours" class="button primary fit scrolly">Tours</a></li>
+							<li><a href="#for_sale" class="button fit scrolly">For Sale</a></li>
 						</ul>
 					</nav>
 
@@ -125,8 +133,8 @@
 								<h1>Thank You</h1>
 							</header>
 							<div class="content">
-								<p>For considering us as your co-host or property manager in the near future</p>
-								<p>If you have questions or concerns use the contact form to contact us</p>
+								<p>For considering booking our room and potentially being a guest in the future </p>
+								<p>If you have already booked a room, we look forward to seeing you soon!</p>
 								<ul class="actions">
 									<li><a href="#gallery" class="button next scrolly">Get Started</a></li>
 								</ul>
@@ -148,23 +156,6 @@
 								</ul>
 							</div>
 						</section>
-
-
-						<section>
-							<div class="inner">
-								<h4>Meet Your Co-host</h4>
-								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="images/profile.jpg" alt="KaibaCorp Vacation Rentals" /></a></span>I was born and raised in Chinatown but have no memories of that time as I have lived in Brooklyn my whole life. 
-
-Just like other hosts, I have an unoccupied room in my house and I could use some extra income in this tough economy. I can't wait to share my room with you, so let me know how I can make your stay a 5 star stay! 
-
-If you have a question about my amenities or my location, feel free to ask me and make a booking today. The price is only this low for a limited time only. 
-
-I am a part time programmer who teaches programming at city tech university. My hobbies include kickboxing, exercising, watching anime, learning Japanese...we can talk about any of these topics and more!</p>
-								<p><span class="image right"><img src="images/superhost.jpg" alt="" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a></p>
-							</div>
-						</section>
-
-						<section style="clear: both;"></section>
 
 						<!-- House -->
 						<section id="house" class="tiles">
@@ -459,8 +450,134 @@ Enhance your accessory collection with this classic Gucci belt. Its timeless des
 
 				</section>
 
+				<section id="neighborhood">
+					<div class="inner">
+						
+						<p>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
+							
+					</div>
+				</section>
 
+				<?php
 
-<?php
-include('footer.php');
+$adminEmail = 'kaiba.corporation.llc@gmail.com';
+
+	if($_POST['message']) {
+	$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
+
+	$message = $_POST['message'];
+	$name = $_POST['name']; 
+	$email = $_POST['email'];
+	$address = $_POST['address'];
+	$phone = $_POST['phone'];
+		
+	if(!$error) {
+		$headers = "From: ".$adminEmail."\n"; 
+
+		$emailSubject = "KaibaCorp: Your Message Was Received";
+		$emailContent = "You have sent a message to BL Web Solutions. The contents
+of the message are the following:
+		
+Full Name: ".$name."
+Email: ".$email."
+Address: ".$address."
+Phone #: ".$phone."
+Message: ".$message."";
+		
+		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
+			$error = 'Message sent! You will receive a confirmation email shortly.'; 
+		} 
+		else {
+			$error = 'Error: message not sent! Please inform the administrator: '.$adminEmail;
+		}
+	}
+}
+
 ?>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="./#contact">
+									<div><?=$error?></div>
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										 
+										<div class="field half">
+											<label for="address">Address</label>
+											<input type="text" name="address" id="address" />
+										</div>
+										<div class="field half">
+											<label for="phone">Phone #</label>
+											<input type="text" size="25" name="phone" id="phone" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:<?=$adminEmail?>"><?=$adminEmail?></a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>347-389-4994</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Sheepshead Bay Zip Code 11229<br />
+										Salisbury Zip Code 28144<br />
+										Actual address will be revealed<br />
+										after booking</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+						
+							<ul class="copyright">
+								<li>&copy; KaibaCorp Rentals & Tours </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
