@@ -100,8 +100,8 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 							 
 							<div class="navbar-links">
 								<ul>
-									<li><a href="#home">Home</a></li>
-									<li><a href="#gallery">Gallery</a></li>
+									<li><a href="#brooklyn">Brooklyn</a></li>
+									<li><a href="#charlotte">Charlotte</a></li>
 									<li><a href="#tours">Tours</a></li>
 									<li><a href="#contact">Contact</a></li>
 								</ul>
@@ -114,14 +114,13 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 					</header>
 
 
-
 				<!-- Menu -->
 					<nav id="menu">
  
 						<ul class="actions stacked">
 
-							<li><a href="#" class="button primary fit scrolly">Home</a></li>
-							<li><a href="#gallery" class="button fit scrolly">Gallery</a></li>
+							<li><a href="#brooklyn" class="button primary fit scrolly">Brooklyn</a></li>
+							<li><a href="#charlotte" class="button fit scrolly">Charlotte</a></li>
 							<li><a href="#tours" class="button primary fit scrolly">Tours</a></li>
 							<li><a href="#for_sale" class="button fit scrolly">For Sale</a></li>
 						</ul>
@@ -145,7 +144,7 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 
 				<!-- Main -->
 					<div id="main">
-						<section id="neighborhood">
+						<section id="brooklyn">
 							<div class="inner">
 								<header class="major">
 									<h2>Sheepshead Bay Neighborhood</h2>
@@ -159,40 +158,40 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 						</section>
 
 						<!-- House -->
-						<section id="gallery" class="tiles">
+						<section id="house" class="tiles">
 							<article>
 								<span class="image">
-									<img src="images/street1.jpg" alt="" />
+									<img src="images/airbnb1/street1.jpg" alt="" />
 								</span>
 								<header class="major">
-									<h3><a href="images/street1.jpg" class="link">Street View</a></h3>
+									<h3><a href="images/airbnb1/street1.jpg" class="link">Street View</a></h3>
 									<p>Hover mouse over image</p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/street2.jpg" alt="" />
+									<img src="images/airbnb1/street2.jpg" alt="" />
 								</span>
 								<header class="major">
-									<h3><a href="images/street2.jpg" class="link">Street View</a></h3>
+									<h3><a href="images/airbnb1/street2.jpg" class="link">Street View</a></h3>
 									<p>Click image to open full size image</p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/kitch_1.jpg" alt="" />
+									<img src="images/airbnb1/kitch_1.jpg" alt="" />
 								</span>
 								<header class="major">
-									<h3><a href="images/kitch_1.jpg" class="link">Kitchen</a></h3>
+									<h3><a href="images/airbnb1/kitch_1.jpg" class="link">Kitchen</a></h3>
 									<p>Fridge, microwave, stove & oven included</p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/kitch_3.jpg" alt="" />
+									<img src="images/airbnb1/kitch_2.jpg" alt="" />
 								</span>
 								<header class="major">
-									<h3><a href="images/kitch_3.jpg" class="link">Kitchen</a></h3>
+									<h3><a href="images/airbnb1/kitch_2.jpg" class="link">Kitchen</a></h3>
 									<p>Fully stocked with utensils, dishes, and cooking supplies</p>
 								</header>
 							</article>
@@ -240,16 +239,16 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 								<header class="major">
 									<h2>Brooklyn Tours</h2>
 								</header>
-								<p>Check out our Brooklyn Tours. More will be coming soon </p>
+								<p>Check out our Brooklyn Tours. You can book directly with us or on Airbnb</p>
 							</div>
 						</section>
 
 						<section id="" class="spotlights">
 						<section>
-						<a href="https://www.airbnb.com/experiences/4496855" class="image">
-							<img src="images/coney.jpg" alt="" data-position="top center" />
-						</a>
-						<div class="content">
+							<a href="https://www.airbnb.com/experiences/4496855" class="image">
+								<img src="images/coney.jpg" alt="" data-position="top center" />
+							</a>
+							<div class="content">
 							<div class="inner">
 								<header class="major">
 									<h3>Explore Brooklyn’s famous Coney Island</h3>
@@ -264,34 +263,130 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 						</section>
 
 						<section>
-						<a href="https://www.airbnb.com/experiences/4496855" class="image">
-							<img src="images/japan.jpg" alt="" data-position="25% 25%" />
-						</a>
-						<div class="content">
-							<div class="inner">
-								<header class="major">
-									<h3>Get a Taste Of Japan At Japan Village</h3>
-								</header>
-								<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
-								<ul class="actions">
-									<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-									<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
-								</ul>
+							<a href="https://www.airbnb.com/experiences/4496855" class="image">
+								<img src="images/japan.jpg" alt="" data-position="25% 25%" />
+							</a>
+							<div class="content">
+								<div class="inner">
+									<header class="major">
+										<h3>Get a Taste Of Japan At Japan Village</h3>
+									</header>
+									<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+									<ul class="actions">
+										<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
+										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+									</ul>
+								</div>
 							</div>
-						</div>
 						</section>
-</section>
+					</section>
 
 
-						<!-- For Sale -->
-						<section id="for_sale">
+						<!--  -->
+						<section id="charlotte">
 							<div class="inner">
 								<header class="major">
-									<h2>Household Items for Sale</h2>
+									<h2>Salisbury Neighborhood in North Carolina</h2>
 								</header>
-								<p>We have many products available for sale. During you stay, you can ask about these items. We accept cash, zelle or venmo.</p>
+								<p>Salisbury is situated within the larger metropolitan area of Charlotte, North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
+
+								<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
+								</p>
 								 
 							</div>
+						</section>
+
+						<!-- House -->
+						<section id="gallery" class="tiles">
+							<article>
+								<span class="image">
+									<img src="images/airbnb2/outside_1.jpg" alt="" />
+								</span>
+								<header class="major">
+									<h3><a href="images/airbnb2/outside_1.jpg" class="link">Street View</a></h3>
+									<p>Hover mouse over image</p>
+								</header>
+							</article>
+							<article>
+								<span class="image">
+									<img src="images/airbnb2/outside_2.jpg" alt="" />
+								</span>
+								<header class="major">
+									<h3><a href="images/airbnb2/outside_2.jpg" class="link">Street View</a></h3>
+									<p>Click image to open full size image</p>
+								</header>
+							</article>
+							<article>
+								<span class="image">
+									<img src="images/airbnb2/outside_3.jpg" alt="" />
+								</span>
+								<header class="major">
+									<h3><a href="images/airbnb2/outside_3.jpg" class="link"></a></h3>
+									<p></p>
+								</header>
+							</article>
+							<article>
+								<span class="image">
+									<img src="images/airbnb2/living_1.jpg" alt="" />
+								</span>
+								<header class="major">
+									<h3><a href="images/airbnb2/living_1.jpg" class="link"></a></h3>
+									<p></p>
+								</header>
+							</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/living_2.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="images/airbnb2/living_2.jpg" class="link"></a></h3>
+										<p></p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/kitch.jpg" alt="" />
+									</span>
+									<header class="major">
+									<h3><a href="images/airbnb2/kitch.jpg" class="link"></h3><p></p></a>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/bathroom.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="images/airbnb2/bathroom.jpg" class="link"></a></h3>
+										<p></p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/bedroom_1.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="images/airbnb2/bedroom_1.jpg" class="link"></a></h3>
+										<p></p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/bedroom_2.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="images/airbnb2/bedroom_2.jpg" class="link"></a></h3>
+										<p></p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/airbnb2/bedroom_3.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="images/airbnb2/bedroom_3.jpg" class="link"></a></h3>
+										<p></p>
+									</header>
+								</article>
 						</section>
 
 					</div>
@@ -348,50 +443,9 @@ Versatile Fashion: Perfect for both formal and casual wear, this belt elevates a
 Enhance your accessory collection with this classic Gucci belt. Its timeless design and superior quality make it a must-have for any style enthusiast. Don't miss out on the opportunity to own this luxurious piece. Order now and experience the elegance of Gucci!</p>",
 	);
 
-	echo saleModule($gucci);
+	//echo saleModule($gucci);
 
-
-	$ballistix = array(
-		'type' => 'B',
-		'url' => 'https://www.ebay.com/itm/296552476035',
-		'title' => 'Ballistix Sport 8GB (2 X 4GB) DDR3 1600MHz RAM',
-		'img' => 'ballistix.jpg',
-		'desc' => "<p>Upgrade your computer's performance with this Ballistix Sport DDR3 RAM. With a total capacity of 8GB, this RAM includes two modules of 4GB each, providing seamless multitasking and faster data transfer rates. The RAM is designed to work with PC3-12800 (DDR3-1600) bus speed, making it an ideal choice for high-performance computing. The Ballistix Sport DDR3 RAM is manufactured in China and is compatible with various computer models. It is a reliable choice for enhancing your computer's speed and performance.</p>",
-	);
-
-	echo saleModule($ballistix);
-
-	$ffx2 = array(
-		'type' => 'A',
-		'url' => 'https://www.ebay.com/itm/296527232316?epid=10633&itmmeta=01J27PKJG1PJF43GP7B9T8C7PZ&hash=item450a667d3c:g:rQ4AAOSwEvRmeu6i',
-		'title' => 'Final Fantasy X-2 - PS2 - Sequel to FF-X',
-		'img' => 'ff_x_2.jpg',
-		'desc' => "<p>Return to the world of Spira with Final Fantasy X-2 for the PS2. This direct sequel to the acclaimed Final Fantasy X brings back beloved characters, introduces new gameplay mechanics, and offers an exciting new story that will captivate fans of the series. Don't miss out on the chance to experience one of the most beloved entries in the Final Fantasy series. Add Final Fantasy X-2 to your PS2 collection today and embark on an unforgettable adventure!</p>",
-	);
-
-	echo saleModule($ffx2);
-
-	$jade = array(
-		'type' => 'B',
-		'url' => 'https://www.ebay.com/itm/296542134384?itmmeta=01J27PWGSBGT6VMXSM5KS09B84&hash=item450b49e070:g:H7QAAOSwpCRmhHYh',
-		'title' => 'Vintage Chinese Red Knot Jade Decoration - <br />Handcrafted, Elegant, Unique',
-		'img' => 'jade.jpg',
-		'desc' => "<p>Add a touch of elegance and cultural heritage to your home with this vintage Chinese red knot jade wall hanging. This handcrafted piece combines traditional Chinese artistry with the natural beauty of jade, making it a unique and eye-catching decor item.Enhance your home decor with this vintage Chinese red knot jade wall hanging. Its timeless beauty and cultural significance make it a perfect addition to any space. Don't miss out on owning this unique and elegant piece!</p>",
-	);
-
-	echo saleModule($jade);
-
-	$tangle = array(
-		'type' => 'A',
-		'url' => 'https://www.ebay.com/itm/296460754426?itmmeta=01J27PWGSBPWH0BVNCHA0V9642&hash=item4506701dfa:g:tmoAAOSwcxZmU~J9',
-		'title' => '3x Tangle Free Micro USB Retractable Cable <br /> 3x - Green',
-		'img' => 'usb_tangle.jpg',
-		'desc' => "<p>Simplify your tech life with our Universal Retractable USB Cable. This versatile and compact cable is perfect for charging your devices and syncing data on the go. Designed for convenience and durability, it extends and retracts effortlessly to avoid tangles, making it an essential accessory for your home, office, or travel needs. Key Features: Retractable Design: Easily adjustable, perfect for minimizing clutter and tangles. Fast Charging & Data Sync: Supports high-speed charging and data transfer for various devices. Universal Compatibility: Works with smartphones, tablets, cameras, and other USB-powered devices. Durable & Compact: Made with high-quality materials to withstand daily use; compact size fits perfectly in your bag or pocket. Color: Green</p>",
-	);
-
-	echo saleModule($tangle);
-
-
+  
 ?>
 
 				</section>
@@ -399,7 +453,7 @@ Enhance your accessory collection with this classic Gucci belt. Its timeless des
 				<section id="neighborhood">
 					<div class="inner">
 						
-						<p>Below, you can contact us by phone or email about our rentals, tours, or items for sale. Once again, thank you for the opportunity to do business in the future!</p>
+						<p>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
 							
 					</div>
 				</section>
@@ -414,6 +468,8 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 	$message = $_POST['message'];
 	$name = $_POST['name']; 
 	$email = $_POST['email'];
+	$address = $_POST['address'];
+	$phone = $_POST['phone'];
 		
 	if(!$error) {
 		$headers = "From: ".$adminEmail."\n"; 
@@ -424,6 +480,8 @@ of the message are the following:
 		
 Full Name: ".$name."
 Email: ".$email."
+Address: ".$address."
+Phone #: ".$phone."
 Message: ".$message."";
 		
 		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
@@ -451,6 +509,15 @@ Message: ".$message."";
 										<div class="field half">
 											<label for="email">Email</label>
 											<input type="text" name="email" id="email" />
+										</div>
+										 
+										<div class="field half">
+											<label for="address">Address</label>
+											<input type="text" name="address" id="address" />
+										</div>
+										<div class="field half">
+											<label for="phone">Phone #</label>
+											<input type="text" size="25" name="phone" id="phone" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
@@ -483,6 +550,7 @@ Message: ".$message."";
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
 										<span>Sheepshead Bay Zip Code 11229<br />
+										Salisbury Zip Code 28144<br />
 										Actual address will be revealed<br />
 										after booking</span>
 									</div>
@@ -494,13 +562,9 @@ Message: ".$message."";
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://www.airbnb.com/rooms/841300394500737442?source_impression_id=p3_1719790415_P36temSnhYUDm2Le" class="icon brands alt fa-airbnb" target="_BLANK"><span class="label">Airbnb</span></a></li>
-								<li><a href="https://www.ebay.com/usr/random_stuff_in_house" class="icon brands alt fa-ebay" target="_BLANK"><span class="label">ebay</span></a></li>
-								<li><a href="https://github.com/TheJadeEmperor/" class="icon brands alt fa-github" target="_BLANK"><span class="label">GitHub</span></a></li>
-							</ul>
+							 
 							<ul class="copyright">
-								<li>&copy; South Brooklyn Airbnb </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+								<li>&copy; KaibaCorp Rentals & Tours </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
 							</ul>
 						</div>
 					</footer>
