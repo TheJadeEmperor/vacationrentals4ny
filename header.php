@@ -1,3 +1,7 @@
+<?php
+$adminEmail = 'kaiba.corporation.llc@gmail.com';
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>

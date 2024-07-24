@@ -9,8 +9,6 @@
 
 <?php
 
-$adminEmail = 'kaiba.corporation.llc@gmail.com';
-
 	if($_POST['message']) {
 	$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
 
@@ -21,7 +19,7 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 	$phone = $_POST['phone'];
 		
 	if(!$error) {
-		$headers = "From: ".$adminEmail."\n"; 
+		$headers = "From: ".$adminEmail."\n";  //$adminEmail defined in header.php
 
 		$emailSubject = "KaibaCorp: Your Message Was Received";
 		$emailContent = "You have sent a message to BL Web Solutions. The contents

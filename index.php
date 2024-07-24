@@ -76,7 +76,7 @@ include('header.php');
 								<header class="major">
 									<h3 id="guest_comm">Guest Communication </h3>
 								</header>
-								<p>We communicate with guests every step of the way, starting from booking, check in, check out, and even after check out. We respond to guest inquiries immediately or we strive to respond ASAP. There is a reason why guest rate us 5 stars on communication. By providing exceptional service, we will raise your ratings as high as possible.  </p>
+								<p>We communicate with guests every step of the way, starting from booking, check in, check out, and even after check out. We respond to guest inquiries immediately or we strive to respond ASAP. There is a reason why guests rate us 5 stars on communication. By providing exceptional service, we will raise your ratings as high as possible.  </p>
 								<ul class="actions">
 									<li><a href="#cleaning" class="button primary fit scrolly">Read More</a></li>
 								</ul>
