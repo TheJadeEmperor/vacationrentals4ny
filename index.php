@@ -1,128 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>KaibaCorp Vacation Rentals & Tours</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-<style> 
+<?php
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
+include('header.php');
 
-.brand-title {
-    font-size: 1.5em;
-    color: white;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.navbar-links li {
-    margin-left: 0px;
-}
-
-.navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.navbar-links a:hover {
-    color: #ff6347;
-}
-
-.toggle-button {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-@media (max-width: 900px) {
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-        margin: 10px 0;
-    }
-}
-
-.navbar.active .navbar-links {
-    display: flex;
-}
-
-</style>
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>KaibaCOrp</strong> <span>Vacation Rentals</span></a>
-
-						<nav class="navbar">
-						 
-							<div class="navbar-links">
-								<ul>
-									<li><a href="./">Hosts</a></li>
-									<li><a href="./guests.php">Guests</a></li>
-									<li><a href="./guests.php#tours">Tours</a></li>
-									<li><a href="#contact">Contact</a></li>
-								</ul>
-							</div>
-						</nav>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="actions stacked">
-
-							<li><a href="./" class="button primary fit scrolly">Hosts</a></li>
-							<li><a href="./guests.php" class="button fit scrolly">Guests</a></li>
-							<li><a href="./guests.php#tours" class="button primary fit scrolly">Tours</a></li>
-							<li><a href="#contact" class="button fit scrolly">Contact</a></li>
-						</ul>
-					</nav>
+?>
 
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>Thank You</h1>
+								<h1>Attention Homeowners: Thank You</h1>
 							</header>
 							<div class="content">
 								<p>For considering us as your co-host or property manager in the near future</p>
@@ -139,324 +25,102 @@
 						<section id="brooklyn">
 							<div class="inner">
 								<header class="major">
-									<h2>Sheepshead Bay Neighborhood</h2>
+									<h2>Your Personal Co-Host</h2>
 								</header>
-								<p>Lively and convenient, Sheepshead Bay has everything you'll need and you get a true Brooklyn experience in this stay. Sheepshead Bay was named after a fish - the sheepshead - that can no longer be found here in the area. This lively neighborhood was once a fishing destination that many visited along with its close proximity to the race track.
+								<p>Sit back and relax as you let us handle the day to day management of your luxury rental on Airbnb & Vrbo, as well as other marketplaces. We only profit when you do, so you know we are fully committed to maximizing returns on your rental property. 
 									</p>
 								<ul class="actions">
-									<li><a href="#house" class="button next">View Gallery</a></li>
+									<li><a href="#about_team" class="button next scrolly">Meet Your Cohost(s)</a></li>
 								</ul>
 							</div>
 						</section>
 
 
-						<section>
+						<section id="about_team">
 							<div class="inner">
 								<h4>Meet Your Co-host</h4>
-								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="images/profile.jpg" alt="KaibaCorp Vacation Rentals" /></a></span>I was born and raised in Chinatown but have no memories of that time as I have lived in Brooklyn my whole life. 
+								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="images/profile.jpg" alt="KaibaCorp Vacation Rentals" /></a></span>I'm Benjamin, a dedicated and experienced Airbnb & Vrbo host and property manager with a mission for creating unforgettable stays for my guests. Over the past two years, I've had the pleasure of hosting travelers from all over the world, and I'm proud to have earned <b>Superhost</b> status, a testament to my commitment to going the <b>extra mile</b> to make sure my guests feel at home. </p>
 
-Just like other hosts, I have an unoccupied room in my house and I could use some extra income in this tough economy. I can't wait to share my room with you, so let me know how I can make your stay a 5 star stay! 
+								<p>I began my short-term rental journey with a simple goal: to pay the bills. What started as a necessity quickly turned into a <b>passion</b> as I discovered the joy of hosting and meeting new people from different cultures. Not only do I talk to my guests, but I also give them tours, if they wish to have one, of cultural hotspots in Brooklyn and NYC.</p>
 
-If you have a question about my amenities or my location, feel free to ask me and make a booking today. The price is only this low for a limited time only. 
+								<p><span class="image right"><img src="images/superhost.jpg" alt="" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a> If you are a New York landlord and currently doing long term rentals, then you should know about the difficulties of non-paying tenants and squatters. If you are open to short term rentals, then please contact our team using the form below. We will be happy to explain the benefits of STR vs long term. </p>
 
-I am a part time programmer who teaches programming at city tech university. My hobbies include kickboxing, exercising, watching anime, learning Japanese...we can talk about any of these topics and more!</p>
-								<p><span class="image right"><img src="images/superhost.jpg" alt="" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a></p>
+								<p>If you are a property owner who is currently doing STR and want to <b>raise your revenue</b>, or looking for a property manager to run your rental business for you, please contact our team using the form below.</p>
+
+								<ul class="actions">
+									<li><a href="#services" class="button next scrolly">Our Services</a></li>
+								</ul>
 							</div>
+							
 						</section>
 
 						<section style="clear: both;"></section>
+ 
 
-						<!-- House -->
-						<section id="house" class="tiles">
-							<article>
-								<span class="image">
-									<img src="images/airbnb1/street1.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb1/street1.jpg" class="link">Street View</a></h3>
-									<p>Hover mouse over image</p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb1/street2.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb1/street2.jpg" class="link">Street View</a></h3>
-									<p>Click image to open full size image</p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb1/kitch_1.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb1/kitch_1.jpg" class="link">Kitchen</a></h3>
-									<p>Fridge, microwave, stove & oven included</p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb1/kitch_2.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb1/kitch_2.jpg" class="link">Kitchen</a></h3>
-									<p>Fully stocked with utensils, dishes, and cooking supplies</p>
-								</header>
-							</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb1/bed_1.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb1/bed_1.jpg" class="link">Bedroom</a></h3>
-										<p>Large bedroom with closet, table, sofa, and chair</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb1/bed_2.jpg" alt="" />
-									</span>
-									<header class="major">
-									<h3><a href="images/airbnb1/bed_2.jpg" class="link">Bedroom</h3><p>Room is highly decorated and fit for royalty</p></a>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb1/bed_3.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb1/bed_3.jpg" class="link"></a>Cabinet</h3>
-										<p>Books, magazines, manga, and movies available</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb1/bed_4.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb1/bed_4.jpg" class="link">Workspace</a></h3>
-										<p>Notebooks, pens, etc.</p>
-									</header>
-								</article>
-						</section>
+						<!-- Services -->
+					 
 
-
-						<!-- Tours -->
-						<section id="tours">
-							<div class="inner">
-								<header class="major">
-									<h2>Brooklyn Tours</h2>
-								</header>
-								<p>Check out our Brooklyn Tours. You can book directly with us or on Airbnb</p>
-							</div>
-						</section>
-
-						<section id="" class="spotlights">
+						<section id="services" class="spotlights">
 						<section>
 							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/coney.jpg" alt="" data-position="top center" />
+								<img src="images/luxury/outside_1.jpg" alt="" data-position="top center" />
 							</a>
 							<div class="content">
 							<div class="inner">
 								<header class="major">
-									<h3>Explore Brooklyn’s famous Coney Island</h3>
+									<h3 id="guest_comm">Above & Beyond Guest Communication </h3>
 								</header>
-								<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
+								<p>We communicate with guests every step of the way, starting from booking, check in, check out, and even after check out. We respond to guest inquiries immediately or we strive to respond ASAP. There is a reason why guest rate us 5 stars on communication. By providing exceptional service, we will raise your ratings as high as possible.  </p>
 								<ul class="actions">
-									<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-									<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+									<li><a href="#cleaning" class="button primary fit scrolly">Read More</a></li>
 								</ul>
 							</div>
-						</div>
+							</div>
 						</section>
 
 						<section>
 							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/japan.jpg" alt="" data-position="25% 25%" />
+								<img src="images/luxury/outside_2.jpg" alt="" data-position="25% 25%" />
 							</a>
 							<div class="content">
 								<div class="inner">
 									<header class="major">
-										<h3>Get a Taste Of Japan At Japan Village</h3>
+										<h3 id="cleaning">Careful Cleaning & Maintenance</h3>
 									</header>
-									<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+									<p>
+										Our team of expert hand-picked cleaners will ensure your property is maintained to the highest standards of cleanliness.</p>
+
+									<p>We will handle any disputes with guests should they arise, including to damage to the property, breaking the house rules, etc.</p>
 									<ul class="actions">
-										<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
-									</ul>
+									<li><a href="#cleaning" class="button primary fit scrolly">Read More</a></li>
+								</ul>
 								</div>
+							</div>
+						</section>
+
+						<section>
+							<a href="https://www.airbnb.com/experiences/4496855" class="image">
+								<img src="images/luxury/outside_1.jpg" alt="" data-position="top center" />
+							</a>
+							<div class="content">
+							<div class="inner">
+								<header class="major">
+									<h3 id="guest_comm">Marketing Mastery & SEO</h3>
+								</header>
+								<p>We communicate with guests every step of the way, starting from booking, check in, check out, and even after check out. We respond to guest inquiries immediately or we strive to respond ASAP. There is a reason why guest rate us 5 stars on communication. By providing exceptional service, we will raise your ratings as high as possible.  </p>
+								<ul class="actions">
+									<li><a href="#cleaning" class="button primary fit scrolly">Read More</a></li>
+								</ul>
+							</div>
 							</div>
 						</section>
 					</section>
 
 
-						<!--  -->
-						<section id="charlotte">
-							<div class="inner">
-								<header class="major">
-									<h2>Salisbury Neighborhood in North Carolina</h2>
-								</header>
-								<p>Salisbury is situated within the larger metropolitan area of Charlotte, North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
-
-								<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
-								</p>
-								 
-							</div>
-						</section>
-
-						<!-- House -->
-						<section id="gallery" class="tiles">
-							<article>
-								<span class="image">
-									<img src="images/airbnb2/outside_1.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb2/outside_1.jpg" class="link">Street View</a></h3>
-									<p>Hover mouse over image</p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb2/outside_2.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb2/outside_2.jpg" class="link">Street View</a></h3>
-									<p>Click image to open full size image</p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb2/outside_3.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb2/outside_3.jpg" class="link"></a></h3>
-									<p></p>
-								</header>
-							</article>
-							<article>
-								<span class="image">
-									<img src="images/airbnb2/living_1.jpg" alt="" />
-								</span>
-								<header class="major">
-									<h3><a href="images/airbnb2/living_1.jpg" class="link"></a></h3>
-									<p></p>
-								</header>
-							</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/living_2.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb2/living_2.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/kitch.jpg" alt="" />
-									</span>
-									<header class="major">
-									<h3><a href="images/airbnb2/kitch.jpg" class="link"></h3><p></p></a>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/bathroom.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb2/bathroom.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/bedroom_1.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_1.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/bedroom_2.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_2.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnb2/bedroom_3.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_3.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-						</section>
-
 					</div>
 
 				<section id="" class="spotlights">
-					
-				 
-				 
-
-<?php
-	
-	function saleModule($item) {
-
-		if($item['type'] == 'A') {
-			$dataPosition = 'center center';
-		}
-		else {
-			$dataPosition = '25% 25%';
-		}
-
-		return '
-				<section>
-					<a href="'.$item['url'].'" class="image" target="_BLANK">
-						<img src="images/for_sale/'.$item['img'].'" alt="" data-position="center center" />
-					</a>
-					<div class="content">
-						<div class="inner">
-							<header class="major">
-								<h3>'.$item['title'].'</h3>
-							</header>
-							'.$item['desc'].'
-							<ul class="actions">
-								<li><a href="'.$item['url'].'" class="button" target="_BLANK">Get it Now</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>';
-	}
-
-
-	$gucci = array(
-		'type' => 'B',
-		'url' => 'https://www.ebay.com/itm/296573714626',
-		'title' => 'Gucci Belt - Authentic Leather - Iconic GG Buckle - Size 46/115',
-		'img' => 'gucci_1.jpg',
-		'desc' => "<p>Upgrade your wardrobe with this authentic Gucci leather belt, featuring the iconic GG buckle. Known for its luxurious materials and timeless designs, a Gucci belt is an essential accessory for any fashion-forward individual.
-
-Key Features:
-
-Authentic Designer: Genuine Gucci belt, ensuring top-tier quality and exquisite craftsmanship.
-Premium Leather: Made from high-quality leather, offering both durability and a refined look.
-Iconic GG Buckle: Features the signature double GG buckle, a hallmark of Gucci's timeless style.
-Versatile Fashion: Perfect for both formal and casual wear, this belt elevates any outfit with a touch of luxury. This belt is in excellent condition, with minimal signs of wear and no visible damage.
-Enhance your accessory collection with this classic Gucci belt. Its timeless design and superior quality make it a must-have for any style enthusiast. Don't miss out on the opportunity to own this luxurious piece. Order now and experience the elegance of Gucci!</p>",
-	);
-
-	//echo saleModule($gucci);
-
-  
-?>
-
+ 
 				</section>
 
 
