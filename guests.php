@@ -117,62 +117,128 @@ include('header.php');
 								<header class="major">
 									<h2>Brooklyn Tours</h2>
 								</header>
-								<p>Check out our Brooklyn Tours. You can book directly with us or on Airbnb</p>
+								<p>Check out our Brooklyn Tours. You can book directly with us or on Airbnb. Tips are optional but appreciated.</p>
 							</div>
 						</section>
 
-						<section id="" class="spotlights">
-						<section>
-							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/coney.jpg" alt="" data-position="top center" />
-							</a>
-							<div class="content">
-							<div class="inner">
-								<header class="major">
-									<h3>Explore Brooklyn’s famous Coney Island</h3>
-								</header>
-								<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
-								<ul class="actions">
-									<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-									<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
-								</ul>
-							</div>
-						</div>
-						</section>
-
-						<section>
-							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/japan.jpg" alt="" data-position="25% 25%" />
-							</a>
-							<div class="content">
+						<section id="coney" class="spotlights">
+							<section>
+								<a href="https://www.airbnb.com/experiences/4496855" class="image">
+									<img src="images/coney.jpg" alt="" data-position="top center" />
+								</a>
+								<div class="content">
 								<div class="inner">
 									<header class="major">
-										<h3>Get a Taste Of Japan At Japan Village</h3>
+										<h3>Explore Brooklyn’s famous Coney Island</h3>
 									</header>
-									<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+									<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
 									<ul class="actions">
 										<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
 										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
 									</ul>
 								</div>
 							</div>
-						</section>
+							</section>
+
+							<section>
+								<a href="https://www.airbnb.com/experiences/4496855" class="image">
+									<img src="images/japan.jpg" alt="" data-position="25% 25%" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Get a Taste Of Japan At Japan Village</h3>
+										</header>
+										<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+										<ul class="actions">
+											<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
+											<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+					</section>
+
+					<!-- Services -->
+					<section id="services">
+						<div class="inner">
+							<header class="major">
+								<h2>Other Services We Provide</h2>
+							</header>
+							<p>In addition to tours, we can provide the following services to make your stay impeccable. These services are for the Brooklyn location only.</p>
+						</div>
 					</section>
 
 
-						<!--  -->
-						<section id="charlotte">
-							<div class="inner">
-								<header class="major">
-									<h2>Salisbury Neighborhood in North Carolina</h2>
-								</header>
-								<p>Salisbury is situated within the larger metropolitan area of Charlotte, North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
-
-								<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
-								</p>
-								 
+					<section id="coney" class="spotlights">
+							<section>
+								<a href="mailto:<?=$adminEmail?>" class="image">
+									<img src="images/services/tour.jpg" alt="" data-position="top center" />
+								</a>
+								<div class="content">
+								<div class="inner">
+									<header class="major">
+										<h3>Tour of Local Neighborhood</h3>
+									</header>
+									<p>We will show you the essentials, the laundromats, restuarants, parks, gyms, police dept, fire dept, etc.</p>
+									<ul class="actions">
+										 
+										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $49</a></li>
+									</ul>
+								</div>
 							</div>
-						</section>
+							</section>
+
+							<section>
+								<a href="mailto:<?=$adminEmail?>" class="image">
+									<img src="images/services/housekeeping.jpg" alt="" data-position="25% 25%" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Housekeeping</h3>
+										</header>
+										<p>We can do housekeeping during your stay. The price depends on the frequency of cleanings.</p>
+										<ul class="actions">
+											<li><a href="mailto:<?=$adminEmail?>" class="button">Book with Us</a></li> 
+										</ul>
+									</div>
+								</div>
+							</section>
+
+							<section>
+								<a href="mailto:<?=$adminEmail?>" class="image">
+									<img src="images/services/trainer.jpg" alt="" data-position="top center" />
+								</a>
+								<div class="content">
+								<div class="inner">
+									<header class="major">
+										<h3>Fitness Trainer</h3>
+									</header>
+									<p>A fitness trainer will take you to the gym and will train you fo 1 hour to 1.5 hours. You can choose a weight lifting or cardio workout.</p>
+									<ul class="actions">
+										 
+										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $29</a></li>
+									</ul>
+								</div>
+							</div>
+							</section>
+					</section>
+
+
+					<!-- charlotte -->
+					<section id="charlotte">
+						<div class="inner">
+							<header class="major">
+								<h2>Salisbury Neighborhood in North Carolina</h2>
+							</header>
+							<p>Salisbury is situated within the larger metropolitan area of Charlotte, North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
+
+							<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
+							</p>
+								
+						</div>
+					</section>
 
 						<!-- House -->
 						<section id="gallery" class="tiles">
