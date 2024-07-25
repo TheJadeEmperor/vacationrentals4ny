@@ -14,7 +14,7 @@ include('header.php');
 								<p>For considering booking our room and potentially being a guest in the future </p>
 								<p>If you have already booked a room, we look forward to seeing you soon!</p>
 								<ul class="actions">
-									<li><a href="#gallery" class="button next scrolly">Get Started</a></li>
+									<li><a href="#main" class="button next scrolly">Get Started</a></li>
 								</ul>
 							</div>
 						</div>
@@ -30,7 +30,7 @@ include('header.php');
 								<p>Lively and convenient, Sheepshead Bay has everything you'll need and you get a true Brooklyn experience in this stay. Sheepshead Bay was named after a fish - the sheepshead - that can no longer be found here in the area. This lively neighborhood was once a fishing destination that many visited along with its close proximity to the race track.
 									</p>
 								<ul class="actions">
-									<li><a href="#house" class="button next">View Gallery</a></li>
+									<li><a href="#house" class="button next scrolly">View Gallery</a></li>
 								</ul>
 							</div>
 						</section>
@@ -169,7 +169,6 @@ include('header.php');
 						</div>
 					</section>
 
-
 					<section id="coney" class="spotlights">
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
@@ -180,7 +179,7 @@ include('header.php');
 									<header class="major">
 										<h3>Tour of Local Neighborhood</h3>
 									</header>
-									<p>We will show you the essentials, the laundromats, restuarants, parks, gyms, police dept, fire dept, etc.</p>
+									<p>Staying in s foreign place can be quite scary, especially if you are from out of the country. If you choose this option, we can show you the local area around the property. We will show you where the laundromats are, as well as local restaurants, parks, gyms, and essential services such as police dept and fire dept. Also we will show you how to take the bus and train to get around. This tour is for you, so feel free to make requests during the tour.</p>
 									<ul class="actions">
 										 
 										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $49</a></li>
@@ -198,7 +197,7 @@ include('header.php');
 										<header class="major">
 											<h3>Housekeeping</h3>
 										</header>
-										<p>We can do housekeeping during your stay. The price depends on the frequency of cleanings.</p>
+										<p>Upon request, we can do housekeeping during your stay. The price depends on the frequency of cleanings. Choose this option and feel like you're coming to a clean, fresh home. When you are on vacation mode, the last thing you want to worry about is cleaning, taking out the trash, etc.</p>
 										<ul class="actions">
 											<li><a href="mailto:<?=$adminEmail?>" class="button">Book with Us</a></li> 
 										</ul>
@@ -215,7 +214,7 @@ include('header.php');
 									<header class="major">
 										<h3>Fitness Trainer</h3>
 									</header>
-									<p>A fitness trainer will take you to the gym and will train you fo 1 hour to 1.5 hours. You can choose a weight lifting or cardio workout.</p>
+									<p>This option is for those who want to stay fit even during a vacation. A fitness trainer will take you to the gym and will train you fo 1 hour to 1.5 hours. You can choose a weight lifting or cardio workout.</p>
 									<ul class="actions">
 										 
 										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $29</a></li>

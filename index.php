@@ -95,7 +95,7 @@ include('header.php');
 									</header>
 									<p>All of our cleaners have been screened by us, ensuring your property is maintained to the highest standards of cleanliness.</p>
 
-									<p>We screen guests as well, ensuring only high quality guests book with us. However, we will handle any disputes with guests should they arise, including to damage to the property, breaking the house rules, etc.</p>
+									<p>We screen guests as well, ensuring only high quality guests book with us. However, we will handle any disputes with guests should they arise. As a Superhost, we have dealt with a variety of guests so rest assured we handle each situation with professionalism and courtesy.</p>
 									<ul class="actions">
 									<li><a href="#marketing" class="button primary fit scrolly">Read More</a></li>
 								</ul>
@@ -110,25 +110,21 @@ include('header.php');
 							<div class="content">
 							<div class="inner">
 								<header class="major">
-									<h3 id="marketing">Marketing Mastery & SEO</h3>
+									<h3 id="marketing">Marketing & SEO Strategies</h3>
 								</header>
-								<p>We will market your property on different platorms using SEO. Also we can create a complimentary website for your property, free of charge, as your cohost. We use data from different tools to charge competitive prices and your occupancy rate is optimal.</p>
+								<p>We will market your property on different platorms using SEO strategies. Also we can create a complimentary website for your property, free of charge, as your cohost. We use data from different tools to charge competitive prices and your occupancy rate is optimal.</p>
 								<ul class="actions">
-									<li><a href="#cleaning" class="button primary fit scrolly">Read More</a></li>
+									<li><a href="#contact" class="button primary fit scrolly">Contact Us</a></li>
 								</ul>
 							</div>
 							</div>
 						</section>
 					</section>
-
-
 					</div>
 
 				<section id="" class="spotlights">
  
 				</section>
-
-
 
 <?php
 include('footer.php');
