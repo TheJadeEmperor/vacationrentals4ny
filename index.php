@@ -48,10 +48,9 @@ include('header.php');
 								<p>If you are a property owner who is currently doing STR and want to <b>raise your revenue</b>, or looking for a property manager to run your rental business for you, please contact our team using the form below.</p>
 
 
-								<p><span class="image left"> <img src="images/rick.jpg" alt="KaibaCorp Vacation Rentals" /> </span>Hi I'm Rick Ivey, your friendly co-host here in beautiful Charlotte, NC. With a diverse background in music, technology, and military service, I bring a unique touch to hosting, ensuring every guest is well taken care of.</p>
+								<p><span class="image left"> <img src="images/rick.jpg" alt="KaibaCorp Vacation Rentals" /> </span>Hi I'm Rick Ivey, your friendly co-host here in beautiful Salisbury, NC. With a diverse background in music, technology, and military service, I bring a unique touch to hosting, ensuring every guest is well taken care of.</p>
 
-								<p>With my experience working at Home Depot, I have done various repairs for homeowners, including my own home. I make sure every aspect of the house is checked for quality and inspected thoroughly. When I originally bought the house in Charlotte, it was for me to live in, but during this tough economy, I have decided to host my home and be of service to guests near and far. My home is your home, so book a stay at Charlotte today!</p>
-
+								<p>With my experience working at Home Depot, I have done various repairs for homeowners, including my own home. I make sure every aspect of the house is checked for quality and inspected thoroughly. When I originally bought the house in Salisbury, it was for me to live in, but during this tough economy, I have decided to host my home and be of service to guests near and far. My home is your home, so book a stay at Salisbury today!</p>
 
 								<ul class="actions">
 									<li><a href="#services" class="button next scrolly">Our Services</a></li>
@@ -64,8 +63,6 @@ include('header.php');
  
 
 						<!-- Services -->
-					 
-
 						<section id="services" class="spotlights">
 						<section>
 							<a href="https://www.airbnb.com/experiences/4496855" class="image">
@@ -105,7 +102,7 @@ include('header.php');
 
 						<section>
 							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/luxury/outside_1.jpg" alt="" data-position="top center" />
+								<img src="images/luxury/inside_1.jpg" alt="" data-position="top center" />
 							</a>
 							<div class="content">
 							<div class="inner">

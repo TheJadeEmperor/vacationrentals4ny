@@ -231,7 +231,7 @@ include('header.php');
 							<header class="major">
 								<h2>Salisbury Neighborhood in North Carolina</h2>
 							</header>
-							<p>Salisbury is situated within the larger metropolitan area of Charlotte, North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
+							<p>Salisbury is situated within the larger metropolitan area of North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
 
 							<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
 							</p>
