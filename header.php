@@ -1,5 +1,7 @@
 <?php
 $adminEmail = 'kaiba.corporation.llc@gmail.com';
+
+
 ?>
 
 <!DOCTYPE HTML>
@@ -100,8 +102,8 @@ $adminEmail = 'kaiba.corporation.llc@gmail.com';
 							<div class="navbar-links">
 								<ul>
 									<li><a href="./">Hosts</a></li>
-									<li><a href="./guests.php">Guests</a></li>
-									<li><a href="./guests.php#tours">Tours</a></li>
+									<li><a href="./guests">Guests</a></li>
+									<li><a href="./guests#tours">Tours</a></li>
 									<li><a href="#contact" class="scrolly">Contact</a></li>
 								</ul>
 							</div>
