@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^(guests)/ guests.php
+RewriteRule ^guests$ guests.php [NC]
