@@ -96,8 +96,8 @@ Message: ".$message."";
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
-										<span>Sheepshead Bay Zip Code 11229<br />
-										Salisbury Zip Code 28144<br />
+										<span>Sheepshead Bay, NY<br />
+										Salisbury, NC<br />
 										Actual address will be revealed<br />
 										after booking</span>
 									</div>
@@ -111,7 +111,7 @@ Message: ".$message."";
 						<div class="inner">
 						
 							<ul class="copyright">
-								<li>&copy; KaibaCorp Rentals & Tours </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+								<li>KaibaCorp Vacation Rentals & Tours &copy; <?=date('Y')?> </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
 							</ul>
 						</div>
 					</footer>

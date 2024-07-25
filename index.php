@@ -12,7 +12,7 @@ include('header.php');
 							</header>
 							<div class="content">
 								<p>For considering us as your co-host or property manager in the near future</p>
-								<p>If you have questions or concerns use the contact form to contact us</p>
+								<p>If you have questions or concerns use the <a href="#contact" class="scrolly">contact form</a> to contact us</p>
 								<ul class="actions">
 									<li><a href="#main" class="button next scrolly">Get Started</a></li>
 								</ul>
