@@ -226,8 +226,8 @@ include('header.php');
 					</section>
 
 
-					<!-- charlotte -->
-					<section id="charlotte">
+					<!-- Salisbury NC -->
+					<section id="nc">
 						<div class="inner">
 							<header class="major">
 								<h2>Salisbury Neighborhood in North Carolina</h2>

@@ -16,7 +16,7 @@ include('header.php');
 								<p>For considering us as your co-host or property manager in the near future</p>
 								<p>If you have questions or concerns use the <a href="#contact" class="scrolly">contact form</a> to contact us</p>
 								<ul class="actions">
-									<li><a href="#main" class="button next scrolly">Get Started</a></li>
+									<li><a href="#cohost" class="button next scrolly">Get Started</a></li>
 								</ul>
 							</div>
 						</div>
@@ -24,7 +24,7 @@ include('header.php');
 
 				<!-- Main -->
 					<div id="main">
-						<section id="brooklyn">
+						<section id="cohost">
 							<div class="inner">
 								<header class="major">
 									<h2>Your Personal Co-Host</h2>

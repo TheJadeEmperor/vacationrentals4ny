@@ -5,6 +5,28 @@ $keywords2 = 'Vacation Rental Property Management';
 $keywords3 = 'Airbnb Property Management NYC';
 $keywords1 = $alt = 'Airbnb Property Management New York';
 
+$menuHost = '<ul>
+    <li><a href="#banner" class="scrolly">Home</a></li>
+    <li><a href="#cohost" class="scrolly">About Us</a></li>
+    <li><a href="#services" class="scrolly">Services</a></li>
+    <li><a href="#contact" class="scrolly">Contact</a></li>
+</ul>';
+
+$menuGuest = '<ul>
+    <li><a href="#banner" class="scrolly">Home</a></li>
+    <li><a href="#brooklyn" class="scrolly">Brooklyn</a></li>
+    <li><a href="#tours" class="scrolly">Tours</a></li>
+    <li><a href="#nc" class="scrolly">NC</a></li>
+    <li><a href="#contact" class="scrolly">Contact</a></li>
+</ul>';
+
+
+$path = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+
+if($path == 'guests') 
+    $mainMenu = $menuGuest;
+else 
+    $mainMenu = $menuHost;
 
 ?>
 
@@ -27,7 +49,7 @@ $keywords1 = $alt = 'Airbnb Property Management New York';
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     .brand-title {
@@ -75,7 +97,7 @@ $keywords1 = $alt = 'Airbnb Property Management New York';
         border-radius: 10px;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 950px) {
         .navbar-links {
             display: none;
             width: 100%;
@@ -107,12 +129,9 @@ $keywords1 = $alt = 'Airbnb Property Management New York';
 						<nav class="navbar">
 						 
 							<div class="navbar-links">
-								<ul>
-									<li><a href="./">Hosts</a></li>
-									<li><a href="./guests">Guests</a></li>
-									<li><a href="./guests#tours">Tours</a></li>
-									<li><a href="#contact" class="scrolly">Contact</a></li>
-								</ul>
+								<?php 
+                                echo $mainMenu;
+                                ?>
 							</div>
 						</nav>
 						<nav>
@@ -123,9 +142,11 @@ $keywords1 = $alt = 'Airbnb Property Management New York';
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="actions stacked">
-							<li><a href="./" class="button primary fit scrolly">Hosts</a></li>
-							<li><a href="./guests.php" class="button fit scrolly">Guests</a></li>
-							<li><a href="./guests.php#tours" class="button primary fit scrolly">Tours</a></li>
+							<li><a href="./" class="button primary fit scrolly">For Hosts</a></li>
+                            <li><a href="./#services" class="button fit scrolly">Cohost Services</a></li>
+							<li><a href="./guests" class="button primary fit scrolly">For Guests</a></li>
+                            <li><a href="./guests#services" class="button fit scrolly">Guest Services</a></li>
+							<li><a href="./guests#tours" class="button primary fit scrolly">Tours</a></li>
 							<li><a href="#contact" class="button fit scrolly">Contact</a></li>
 						</ul>
 					</nav>
