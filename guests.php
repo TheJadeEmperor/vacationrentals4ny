@@ -230,7 +230,7 @@ include('header.php');
 					<section id="nc">
 						<div class="inner">
 							<header class="major">
-								<h2>Salisbury Neighborhood in North Carolina</h2>
+								<h2>Salisbury Neighborhood in <br />North Carolina</h2>
 							</header>
 							<p>Salisbury is situated within the larger metropolitan area of North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
 
