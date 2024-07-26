@@ -1,13 +1,20 @@
 <?php
 $adminEmail = 'kaiba.corporation.llc@gmail.com';
 
+$keywords2 = 'Vacation Rental Property Management';
+$keywords3 = 'Airbnb Property Management NYC';
+$keywords1 = $alt = 'Airbnb Property Management New York';
+
 
 ?>
 
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>KaibaCorp Vacation Rentals & Tours</title>
+		<title>KaibaCorp Vacation Rentals & Tours | <?=$keywords ?> | <?=$keywords2 ?> | <?=$keywords3 ?></title>
+        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in New York City and the greater New York area. Contact us to find out about our vacation rental property management services. ">
+        <meta name="keywords" content="<?=$keywords ?>, <?=$keywords2 ?>, <?=$keywords3 ?>"/>
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />

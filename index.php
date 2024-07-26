@@ -7,7 +7,9 @@ include('header.php');
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
+							<span><?=date('m/d/Y') ?></span>
 							<header class="major">
+								
 								<h1>Attention Homeowners: Thank You</h1>
 							</header>
 							<div class="content">
@@ -39,16 +41,16 @@ include('header.php');
 						<section id="about_team">
 							<div class="inner">
 								<h4>Meet Your Co-hosts</h4>
-								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="images/profile.jpg" alt="KaibaCorp Vacation Rentals" /></a></span>I'm Benjamin, a dedicated and experienced Airbnb & Vrbo host and property manager with a mission for creating unforgettable stays for my guests. Over the past two years, I've had the pleasure of hosting travelers from all over the world, and I'm proud to have earned <b>Superhost</b> status, a testament to my commitment to going the <b>extra mile</b> to make sure my guests feel at home. </p>
+								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="images/profile.jpg" alt="<?=$alt?>" /></a></span>I'm Benjamin, a dedicated and experienced Airbnb & Vrbo host and property manager with a mission for creating unforgettable stays for my guests. Over the past two years, I've had the pleasure of hosting travelers from all over the world, and I'm proud to have earned <b>Superhost</b> status, a testament to my commitment to going the <b>extra mile</b> to make sure my guests feel at home. </p>
 
 								<p>I began my short-term rental journey with a simple goal: to pay the bills. What started as a necessity quickly turned into a <b>passion</b> as I discovered the joy of hosting and meeting new people from different cultures. Not only do I talk to my guests, but I also give them tours, if they wish to have one, of cultural hotspots in Brooklyn and NYC.</p>
 
-								<p><span class="image right"><img src="images/superhost.jpg" alt="" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a> If you are a New York landlord and currently doing long term rentals, then you should know about the difficulties of non-paying tenants and squatters. If you are open to short term rentals, then please contact our team using the form below. We will be happy to explain the benefits of STR vs long term. </p>
+								<p><span class="image right"><img src="images/superhost.jpg" alt="<?=$alt?>" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a> If you are a New York landlord and currently doing long term rentals, then you should know about the difficulties of non-paying tenants and squatters. If you are open to short term rentals, then please contact our team using the form below. We will be happy to explain the benefits of STR vs long term. </p>
 
 								<p>If you are a property owner who is currently doing STR and want to <b>raise your revenue</b>, or looking for a property manager to run your rental business for you, please contact our team using the form below.</p>
 
 
-								<p><span class="image left"> <img src="images/rick.jpg" alt="KaibaCorp Vacation Rentals" /> </span>Hi I'm Rick Ivey, your friendly co-host here in beautiful Salisbury, NC. With a diverse background in music, technology, and military service, I bring a unique touch to hosting, ensuring every guest is well taken care of.</p>
+								<p><span class="image left"> <img src="images/rick.jpg" alt="<?=$alt?>" /> </span>Hi I'm Rick Ivey, your friendly co-host here in beautiful Salisbury, NC. With a diverse background in music, technology, and military service, I bring a unique touch to hosting, ensuring every guest is well taken care of.</p>
 
 								<p>With my experience working at Home Depot, I have done various repairs for homeowners, including my own home. I make sure every aspect of the house is checked for quality and inspected thoroughly. When I originally bought the house in Salisbury, it was for me to live in, but during this tough economy, I have decided to host my home and be of service to guests near and far. My home is your home, so book a stay at Salisbury today!</p>
 
@@ -65,8 +67,8 @@ include('header.php');
 						<!-- Services -->
 						<section id="services" class="spotlights">
 						<section>
-							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/luxury/outside_1.jpg" alt="" data-position="top center" />
+							<a href="#guest_comm" class="image scrolly">
+								<img src="images/luxury/outside_1.jpg" alt="<?=$alt?>" data-position="top center" />
 							</a>
 							<div class="content">
 							<div class="inner">
@@ -82,8 +84,8 @@ include('header.php');
 						</section>
 
 						<section>
-							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/luxury/outside_2.jpg" alt="" data-position="25% 25%" />
+							<a href="#marketing" class="image scrolly">
+								<img src="images/luxury/outside_2.jpg" alt="<?=$alt?>" data-position="25% 25%" />
 							</a>
 							<div class="content">
 								<div class="inner">
@@ -101,8 +103,8 @@ include('header.php');
 						</section>
 
 						<section>
-							<a href="https://www.airbnb.com/experiences/4496855" class="image">
-								<img src="images/luxury/inside_1.jpg" alt="" data-position="top center" />
+							<a href="#contact" class="image scrolly">
+								<img src="images/luxury/inside_1.jpg" alt="<?=$alt?>" data-position="top center" />
 							</a>
 							<div class="content">
 							<div class="inner">

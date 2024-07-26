@@ -39,7 +39,7 @@ include('header.php');
 						<section id="house" class="tiles">
 							<article>
 								<span class="image">
-									<img src="images/airbnb1/street1.jpg" alt="" />
+									<img src="images/airbnb1/street1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb1/street1.jpg" class="link">Street View</a></h3>
@@ -48,7 +48,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb1/street2.jpg" alt="" />
+									<img src="images/airbnb1/street2.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb1/street2.jpg" class="link">Street View</a></h3>
@@ -57,7 +57,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb1/kitch_1.jpg" alt="" />
+									<img src="images/airbnb1/kitch_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb1/kitch_1.jpg" class="link">Kitchen</a></h3>
@@ -66,7 +66,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb1/kitch_2.jpg" alt="" />
+									<img src="images/airbnb1/kitch_2.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb1/kitch_2.jpg" class="link">Kitchen</a></h3>
@@ -75,7 +75,7 @@ include('header.php');
 							</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb1/bed_1.jpg" alt="" />
+										<img src="images/airbnb1/bed_1.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb1/bed_1.jpg" class="link">Bedroom</a></h3>
@@ -84,7 +84,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb1/bed_2.jpg" alt="" />
+										<img src="images/airbnb1/bed_2.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 									<h3><a href="images/airbnb1/bed_2.jpg" class="link">Bedroom</h3><p>Room is highly decorated and fit for royalty</p></a>
@@ -92,7 +92,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb1/bed_3.jpg" alt="" />
+										<img src="images/airbnb1/bed_3.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb1/bed_3.jpg" class="link"></a>Cabinet</h3>
@@ -101,7 +101,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb1/bed_4.jpg" alt="" />
+										<img src="images/airbnb1/bed_4.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb1/bed_4.jpg" class="link">Workspace</a></h3>
@@ -124,7 +124,7 @@ include('header.php');
 						<section id="coney" class="spotlights">
 							<section>
 								<a href="https://www.airbnb.com/experiences/4496855" class="image">
-									<img src="images/coney.jpg" alt="" data-position="top center" />
+									<img src="images/coney.jpg" $alt="<?=$alt?>" data-position="top center" />
 								</a>
 								<div class="content">
 								<div class="inner">
@@ -142,7 +142,7 @@ include('header.php');
 
 							<section>
 								<a href="https://www.airbnb.com/experiences/4496855" class="image">
-									<img src="images/japan.jpg" alt="" data-position="25% 25%" />
+									<img src="images/japan.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
 								</a>
 								<div class="content">
 									<div class="inner">
@@ -172,7 +172,7 @@ include('header.php');
 					<section id="coney" class="spotlights">
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
-									<img src="images/services/tour.jpg" alt="" data-position="top center" />
+									<img src="images/services/tour.jpg" $alt="<?=$alt?>" data-position="top center" />
 								</a>
 								<div class="content">
 								<div class="inner">
@@ -190,7 +190,7 @@ include('header.php');
 
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
-									<img src="images/services/housekeeping.jpg" alt="" data-position="25% 25%" />
+									<img src="images/services/housekeeping.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
 								</a>
 								<div class="content">
 									<div class="inner">
@@ -207,7 +207,7 @@ include('header.php');
 
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
-									<img src="images/services/trainer.jpg" alt="" data-position="top center" />
+									<img src="images/services/trainer.jpg" $alt="<?=$alt?>" data-position="top center" />
 								</a>
 								<div class="content">
 								<div class="inner">
@@ -243,7 +243,7 @@ include('header.php');
 						<section id="gallery" class="tiles">
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_1.jpg" alt="" />
+									<img src="images/airbnb2/outside_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb2/outside_1.jpg" class="link">Street View</a></h3>
@@ -252,7 +252,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_2.jpg" alt="" />
+									<img src="images/airbnb2/outside_2.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb2/outside_2.jpg" class="link">Street View</a></h3>
@@ -261,7 +261,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_3.jpg" alt="" />
+									<img src="images/airbnb2/outside_3.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb2/outside_3.jpg" class="link"></a></h3>
@@ -270,7 +270,7 @@ include('header.php');
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/living_1.jpg" alt="" />
+									<img src="images/airbnb2/living_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
 									<h3><a href="images/airbnb2/living_1.jpg" class="link"></a></h3>
@@ -279,7 +279,7 @@ include('header.php');
 							</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/living_2.jpg" alt="" />
+										<img src="images/airbnb2/living_2.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb2/living_2.jpg" class="link"></a></h3>
@@ -288,7 +288,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/kitch.jpg" alt="" />
+										<img src="images/airbnb2/kitch.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 									<h3><a href="images/airbnb2/kitch.jpg" class="link"></h3><p></p></a>
@@ -296,7 +296,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bathroom.jpg" alt="" />
+										<img src="images/airbnb2/bathroom.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb2/bathroom.jpg" class="link"></a></h3>
@@ -305,7 +305,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_1.jpg" alt="" />
+										<img src="images/airbnb2/bedroom_1.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb2/bedroom_1.jpg" class="link"></a></h3>
@@ -314,7 +314,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_2.jpg" alt="" />
+										<img src="images/airbnb2/bedroom_2.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb2/bedroom_2.jpg" class="link"></a></h3>
@@ -323,7 +323,7 @@ include('header.php');
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_3.jpg" alt="" />
+										<img src="images/airbnb2/bedroom_3.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
 										<h3><a href="images/airbnb2/bedroom_3.jpg" class="link"></a></h3>
