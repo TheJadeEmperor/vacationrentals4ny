@@ -7,6 +7,7 @@ include('header.php');
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
+							<span><?=date('m/d/Y') ?></span>
 							<header class="major">
 								<h1>Thank You</h1>
 							</header>
