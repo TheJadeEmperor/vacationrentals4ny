@@ -2287,6 +2287,18 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		@media screen and (max-width: 768px) {
+
+			ul.actions {
+				display: block; 
+			}
+
+			ul.actions li {
+				margin-bottom: 15px;
+			}
+
+		}
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;

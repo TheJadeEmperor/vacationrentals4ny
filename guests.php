@@ -135,7 +135,7 @@ include('header.php');
 									<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
 									<ul class="actions">
 										<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+										<li><a href="mailto:<?=$adminEmail?>" class="button primary ">Book Directly with Us</a></li>
 									</ul>
 								</div>
 							</div>
@@ -153,7 +153,7 @@ include('header.php');
 										<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
 										<ul class="actions">
 											<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-											<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book Directly with Us</a></li>
+											<li><a href="mailto:<?=$adminEmail?>" class="button primary">Book Directly with Us</a></li>
 										</ul>
 									</div>
 								</div>
@@ -170,7 +170,7 @@ include('header.php');
 						</div>
 					</section>
 
-					<section id="coney" class="spotlights">
+					<section id="services1" class="spotlights">
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
 									<img src="images/services/tour.jpg" $alt="<?=$alt?>" data-position="top center" />
