@@ -98,8 +98,7 @@ Message: ".$message."";
 										<h3>Address</h3>
 										<span>Sheepshead Bay, NY<br />
 										Salisbury, NC<br />
-										Actual address will be revealed<br />
-										after booking</span>
+										</span>
 									</div>
 								</section>
 							</section>
