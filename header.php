@@ -35,9 +35,9 @@ else
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>KaibaCorp Vacation Rentals & Tours | <?=$keywords ?> | <?=$keywords2 ?> | <?=$keywords3 ?></title>
-        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our vacation rental property management services.">
-        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>"/>
+		<title>KaibaCorp Vacation Rentals | <?=$keywords2 ?> | <?=$keywords3 ?></title>
+        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our vacation rental services.">
+        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>, <?=$keywords4 ?>, <?=$keywords5 ?>"/>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
