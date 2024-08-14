@@ -180,7 +180,7 @@ include('header.php');
 									<header class="major">
 										<h3>Tour of Local Neighborhood</h3>
 									</header>
-									<p>Staying in s foreign place can be quite scary, especially if you are from out of the country. If you choose this option, we can show you the local area around the property. We will show you where the laundromats are, as well as local restaurants, parks, gyms, and essential services such as police dept and fire dept. Also we will show you how to take the bus and train to get around. This tour is for you, so feel free to make requests during the tour.</p>
+									<p>Staying in a foreign place can be quite scary, especially if you are from out of the country. If you choose this option, we can show you the local area around the property. We will show you where the laundromats are, as well as local restaurants, parks, gyms, and essential services such as police dept and fire dept. Also we will show you how to take the bus and train to get around. This tour is for you, so feel free to make requests during the tour.</p>
 									<ul class="actions">
 										 
 										<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $49</a></li>
