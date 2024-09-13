@@ -170,7 +170,7 @@ include('header.php');
 					<section id="services1" class="spotlights">
 							<section>
 								<a href="mailto:<?=$adminEmail?>" class="image">
-									<img src="images/services/tour.jpg" $alt="<?=$alt?>" data-position="top center" />
+									<img src="<?=$theme_uri?>images/services/tour.jpg" $alt="<?=$alt?>" data-position="top center" />
 								</a>
 								<div class="content">
 								<div class="inner">

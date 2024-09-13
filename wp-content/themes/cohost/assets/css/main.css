@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -245,6 +246,7 @@ input, select, textarea {
 	}
 
 	blockquote {
+		
 		border-left: solid 4px rgba(212, 212, 255, 0.1);
 		font-style: italic;
 		margin: 0 0 2em 0;
@@ -3963,3 +3965,121 @@ input, select, textarea {
 			visibility: visible;
 		}
  
+
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 10px;
+		}
+	
+		.brand-title {
+			font-size: 1.5em;
+			color: white;
+		}
+	
+		.navbar-links {
+			height: 100%;
+		}
+	
+		.navbar-links ul {
+			display: flex;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+	
+		.navbar-links li {
+			margin-left: 0px;
+		}
+	
+		.navbar-links a {
+			color: white;
+			text-decoration: none;
+			font-size: 1em;
+		}
+	
+		.navbar-links a:hover {
+			color: #ff6347;
+		}
+	
+		.toggle-button {
+			display: none;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 30px;
+			height: 21px;
+		}
+	
+		.toggle-button .bar {
+			height: 3px;
+			width: 100%;
+			background-color: white;
+			border-radius: 10px;
+		}
+	
+		@media (max-width: 950px) {
+			.navbar-links {
+				display: none;
+				width: 100%;
+			}
+	
+			.navbar-links ul {
+				flex-direction: column;
+				width: 100%;
+			}
+	
+			.navbar-links ul li {
+				text-align: center;
+				margin: 10px 0;
+			}
+		}
+	
+		.navbar.active .navbar-links {
+			display: flex;
+		}
+	
+		.recent-posts-container {
+			margin: 20px 0;
+			padding: 0;
+			list-style: none;
+		}
+	
+		.recent-post-item {
+			margin-bottom: 30px;
+			padding: 20px;
+			
+			border-radius: 5px;
+			border: 1px solid #4150a8;
+			background-color: #333a63;
+		}
+	
+		.recent-post-title a {
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: bold;
+		}
+	
+		.recent-post-title a:hover {
+			color: #0073aa;
+		}
+	
+		.recent-post-excerpt {
+			margin-top: 10px;
+			font-size: 16px;
+			line-height: 1.6;
+		}
+	
+		/* Optional: Make the container responsive */
+		@media (max-width: 768px) {
+			.recent-posts-container {
+				padding: 10px;
+			}
+			.recent-post-title a {
+				font-size: 20px;
+			}
+			.recent-post-excerpt {
+				font-size: 14px;
+			}
+	}
+	

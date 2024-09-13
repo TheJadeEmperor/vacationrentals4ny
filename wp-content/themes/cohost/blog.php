@@ -44,53 +44,5 @@ if ($recent_posts_query->have_posts()) {
 }
 ?>
 
-<style>
-.recent-posts-container {
-    margin: 20px 0;
-    padding: 0;
-    list-style: none;
-}
-
-.recent-post-item {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.recent-post-title a {
-    color: #333;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.recent-post-title a:hover {
-    color: #0073aa;
-}
-
-.recent-post-excerpt {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Optional: Make the container responsive */
-@media (max-width: 768px) {
-    .recent-posts-container {
-        padding: 10px;
-    }
-    .recent-post-title a {
-        font-size: 20px;
-    }
-    .recent-post-excerpt {
-        font-size: 14px;
-    }
-}
-</style>
-
-
     </div>
 </section>

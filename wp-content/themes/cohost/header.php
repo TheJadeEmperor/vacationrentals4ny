@@ -31,10 +31,8 @@ if($path == 'guests')
 else 
     $mainMenu = $menuHost;
 
-
 $theme_uri = get_template_directory_uri().'/';
 ?>
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -52,79 +50,6 @@ $theme_uri = get_template_directory_uri().'/';
 	</head>
 	<body class="is-preload">
 <style> 
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 10px;
-    }
-
-    .brand-title {
-        font-size: 1.5em;
-        color: white;
-    }
-
-    .navbar-links {
-        height: 100%;
-    }
-
-    .navbar-links ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .navbar-links li {
-        margin-left: 0px;
-    }
-
-    .navbar-links a {
-        color: white;
-        text-decoration: none;
-        font-size: 1em;
-    }
-
-    .navbar-links a:hover {
-        color: #ff6347;
-    }
-
-    .toggle-button {
-        display: none;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 30px;
-        height: 21px;
-    }
-
-    .toggle-button .bar {
-        height: 3px;
-        width: 100%;
-        background-color: white;
-        border-radius: 10px;
-    }
-
-    @media (max-width: 950px) {
-        .navbar-links {
-            display: none;
-            width: 100%;
-        }
-
-        .navbar-links ul {
-            flex-direction: column;
-            width: 100%;
-        }
-
-        .navbar-links ul li {
-            text-align: center;
-            margin: 10px 0;
-        }
-    }
-
-    .navbar.active .navbar-links {
-        display: flex;
-    }
 
 </style> 
 		<!-- Wrapper -->
@@ -150,9 +75,9 @@ $theme_uri = get_template_directory_uri().'/';
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="actions stacked">
-							<li><a href="./" class="button primary fit scrolly">For Hosts</a></li>
-                            <li><a href="./#services" class="button fit scrolly">Cohost Services</a></li>
-							<li><a href="./guests" class="button primary fit scrolly">For Guests</a></li>
+							<li><a href="/" class="button primary fit scrolly">For Hosts</a></li>
+                            <li><a href="/#services" class="button fit scrolly">Cohost Services</a></li>
+							<li><a href="./guests/" class="button primary fit scrolly">For Guests</a></li>
                             <li><a href="./guests#services" class="button fit scrolly">Guest Services</a></li>
 							<li><a href="./blog/" class="button primary fit scrolly">Blog</a></li>
 							<li><a href="#contact" class="button fit scrolly">Contact</a></li>
