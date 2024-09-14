@@ -25,10 +25,9 @@
 	if(!$error) {
 		$headers = "From: ".$adminEmail."\n";  //$adminEmail defined in header.php
 
-		$emailSubject = "Vacation Rentals: Your Message Was Received";
-		$emailContent = "You have sent a message to Vacation Rentals. The contents
-of the message are the following:
-				
+		$emailSubject = "Vacation Rentals: We Received Your Inquiry";
+		$emailContent = "Vacation Rentals has received your email. We will contact you as soon as possible.
+ 
 		Full Name: ".$name."
 		Email: ".$email."
 		Address: ".$address."
@@ -48,13 +47,12 @@ of the message are the following:
 		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
 		$mail->addAddress($email, $name);
 		$mail->Subject = $emailSubject;
-		//$mail->msgHTML(file_get_contents('message.html'), __DIR__);
 		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
-			echo 'Mailer Error: ' . $mail->ErrorInfo;
+			$error =  'Mailer Error: ' . $mail->ErrorInfo;
 		} else {
-			echo 'The email message was sent.';
+			$error =  'The email message was sent.';
 		}
 
 
@@ -70,13 +68,12 @@ of the message are the following:
 		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
 		$mail->addAddress($adminEmail, 'Admin Name'); 
 		$mail->Subject = $emailSubject;
-		// $mail->msgHTML(file_get_contents('message.html'), __DIR__);
 		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
-			echo 'Mailer Error: ' . $mail->ErrorInfo;
+			$error = 'Mailer Error: ' . $mail->ErrorInfo;
 		} else {
-			echo 'The email message was sent.';
+			$error = 'The email message was sent.';
 		}
 
 		 
