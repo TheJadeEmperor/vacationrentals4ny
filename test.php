@@ -3,7 +3,7 @@
 ini_set( 'display_errors', 1 );
 error_reporting( E_ALL );
 $from = "mymail@myawesomedomain.tld";
-$to = "louie.online.acc@gmail.com";
+$to = "kaiba.corporation.llc@gmail.com";
 $subject = "Checking PHP mail";
 $message = "PHP mail works just fine";
 $headers = "From:" . $from;
