@@ -9,36 +9,78 @@
 
 <?php
 
-	if($_POST['email']) {
-	$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
 
-	$message = $_POST['message'];
-	$name = $_POST['name']; 
-	$email = $_POST['email'];
-	$address = $_POST['address'];
-	$phone = $_POST['phone'];
+	if($_POST['email']) {
+
+		require 'vendor/autoload.php';
+		use PHPMailer\PHPMailer\PHPMailer;
+	
+		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
+
+		$message = $_POST['message'];
+		$name = $_POST['name']; 
+		$email = $_POST['email'];
+		$address = $_POST['address'];
+		$phone = $_POST['phone']; 
 		
 	if(!$error) {
 		$headers = "From: ".$adminEmail."\n";  //$adminEmail defined in header.php
 
-		$emailSubject = "KaibaCorp: Your Message Was Received";
-		$emailContent = "You have sent a message to BL Web Solutions. The contents
+		$emailSubject = "Vacation Rentals: Your Message Was Received";
+		$emailContent = "You have sent a message to Vacation Rentals. The contents
 of the message are the following:
-		
-Full Name: ".$name."
-Email: ".$email."
-Address: ".$address."
-Phone #: ".$phone."
-Message: ".$message."";
-		
-		// if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
+				
+		Full Name: ".$name."
+		Email: ".$email."
+		Address: ".$address."
+		Phone #: ".$phone."
+		Message: ".$message."";
+				
 
-		if( wp_mail( $adminEmail, $emailSubject, $emailContent, $headers )) {
-			$error = 'Message sent! You will receive a confirmation email shortly.'; 
-		} 
-		else {
-			$error = 'Error: message not sent! Please inform the administrator: '.$adminEmail;
+		$mail = new PHPMailer;
+		$mail->isSMTP();
+		$mail->SMTPDebug = 0;
+		$mail->Host = 'smtp.hostinger.com'; 
+		$mail->Port = 587;
+		$mail->SMTPAuth = true; 
+		$mail->Username = $smtpUsername; 
+		$mail->Password = $smtpPassword;
+		$mail->setFrom('info@vacationrentals4ny.com', 'Benjamin');
+		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
+		$mail->addAddress($email, 'Receiver Name');
+		$mail->Subject = 'Client EMail';
+		$mail->msgHTML(file_get_contents('message.html'), __DIR__);
+		$mail->Body = 'This is just a plain text message body'; 
+
+		if (!$mail->send()) {
+			echo 'Mailer Error: ' . $mail->ErrorInfo;
+		} else {
+			echo 'The email message was sent.';
 		}
+
+
+		$mail = new PHPMailer;
+		$mail->isSMTP();
+		$mail->SMTPDebug = 0;
+		$mail->Host = 'smtp.hostinger.com';
+		$mail->Port = 587;
+		$mail->SMTPAuth = true;
+		$mail->Username = 'info@vacationrentals4ny.com';
+		$mail->Password = 'DDDddd444$$$';
+		$mail->setFrom('info@vacationrentals4ny.com', 'Your Name');
+		$mail->addReplyTo('info@vacationrentals4ny.com', 'Your Name');
+		$mail->addAddress($adminEmail, 'Admin Name');
+		$mail->Subject = 'Admin Email';
+		$mail->msgHTML(file_get_contents('message.html'), __DIR__);
+		$mail->Body = 'This is just a plain text message body'; 
+
+		if (!$mail->send()) {
+			echo 'Mailer Error: ' . $mail->ErrorInfo;
+		} else {
+			echo 'The email message was sent.';
+		}
+
+		 
 	}
 }
 
