@@ -8,7 +8,7 @@
             </section>
 
 <?php
-
+   error_reporting(E_ALL);
 
 	if($_POST['email']) {
 
