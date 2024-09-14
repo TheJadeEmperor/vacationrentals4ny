@@ -119,9 +119,7 @@ include('header.php');
 					</section>
 					</div>
 
-				<section id="" class="spotlights">
- 
-				</section>
+				
 
 <?php
 include('footer.php');

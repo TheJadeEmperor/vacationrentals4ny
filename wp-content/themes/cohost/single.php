@@ -1,11 +1,11 @@
 <?php
 include('header.php');
 ?>
- 
-<?php get_header(); ?>  <!-- Includes the header.php file -->
 
-<div class="single-post-container">
-    <div class="inner"> 
+<div id="main" class="alt">
+<section id="one">
+<div class="inner">
+    
     <?php
     // Check if there are posts
     if ( have_posts() ) :
@@ -55,9 +55,9 @@ include('header.php');
 
     <?php endif; ?>
 
-    </div>
+        </div>
+    </section>
 </div>
- 
 
 
 <?php
