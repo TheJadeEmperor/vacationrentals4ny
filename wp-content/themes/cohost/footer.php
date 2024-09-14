@@ -23,55 +23,59 @@
 		$phone = $_POST['phone']; 
 		
 	if(!$error) {
-		$headers = "From: ".$adminEmail."\n";  //$adminEmail defined in header.php
-
 		$emailSubject = "Vacation Rentals: We Received Your Inquiry";
-		$emailContent = "Vacation Rentals has received your email. We will contact you as soon as possible.
- 
-		Full Name: ".$name."
-		Email: ".$email."
-		Address: ".$address."
-		Phone #: ".$phone."
-		Message: ".$message."";
+		$emailContent = "KaibaCorp Vacation Rentals has received your email. We will contact you as soon as possible. 
+
+Full Name: ".$name."
+Email: ".$email."
+Address: ".$address."
+Phone #: ".$phone."
+Message: ".$message." 
+
+-----------------------------
+Benjamin Louie
+Property Manager
+Airbnb Host & STR Manager
+https://vacationrentals4ny.com
+-----------------------------";
 				
 
 		$mail = new PHPMailer;
 		$mail->isSMTP();
 		$mail->SMTPDebug = 0;
-		$mail->Host = 'smtp.hostinger.com'; 
-		$mail->Port = 587;
+		$mail->Host = $smtpHost; 
+		$mail->Port = $smtpPort;
 		$mail->SMTPAuth = true; 
 		$mail->Username = $smtpUsername; 
 		$mail->Password = $smtpPassword;
-		$mail->setFrom('info@vacationrentals4ny.com', 'Benjamin');
-		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
+		$mail->setFrom($smtpUsername, 'Benjamin');
+		$mail->addReplyTo($smtpUsername, 'Benjamin');
 		$mail->addAddress($email, $name);
 		$mail->Subject = $emailSubject;
 		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
-			$error =  'Mailer Error: ' . $mail->ErrorInfo;
+			$error =  'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
 			$error =  'The email message was sent.';
 		}
 
-
 		$mail = new PHPMailer;
 		$mail->isSMTP();
 		$mail->SMTPDebug = 0;
-		$mail->Host = 'smtp.hostinger.com';
-		$mail->Port = 587;
+		$mail->Host = $smtpHost; 
+		$mail->Port = $smtpPort;
 		$mail->SMTPAuth = true;
 		$mail->Username = $smtpUsername; 
 		$mail->Password = $smtpPassword;
-		$mail->setFrom('info@vacationrentals4ny.com', 'Benjamin');
-		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
-		$mail->addAddress($adminEmail, 'Admin Name'); 
+		$mail->setFrom($smtpUsername, 'Benjamin');
+		$mail->addReplyTo($smtpUsername, 'Benjamin');
+		$mail->addAddress($adminEmail, 'Admin'); 
 		$mail->Subject = $emailSubject;
 		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
-			$error = 'Mailer Error: ' . $mail->ErrorInfo;
+			$error = 'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
 			$error = 'The email message was sent.';
 		}
