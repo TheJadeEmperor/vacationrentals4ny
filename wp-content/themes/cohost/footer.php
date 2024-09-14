@@ -31,7 +31,9 @@ Address: ".$address."
 Phone #: ".$phone."
 Message: ".$message."";
 		
-		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
+		// if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
+
+		if( wp_mail( $adminEmail, $emailSubject, $emailContent, $headers, $attachments )) {
 			$error = 'Message sent! You will receive a confirmation email shortly.'; 
 		} 
 		else {

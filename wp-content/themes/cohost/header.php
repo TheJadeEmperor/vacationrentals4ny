@@ -49,9 +49,7 @@ $theme_uri = get_template_directory_uri().'/';
        
 	</head>
 	<body class="is-preload">
-<style> 
-
-</style> 
+        
 		<!-- Wrapper -->
 			<div id="wrapper">
 

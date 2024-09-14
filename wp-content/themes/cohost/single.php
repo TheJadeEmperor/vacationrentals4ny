@@ -24,6 +24,8 @@ include('header.php');
                     <span> in <?php the_category(', '); ?></span>
                 </div>
 
+                <br /><br />
+
                 <!-- Featured Image -->
                 <?php if ( has_post_thumbnail() ) : ?>
                     <div class="post-thumbnail">
