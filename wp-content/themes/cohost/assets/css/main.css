@@ -4083,3 +4083,16 @@ input, select, textarea {
 			}
 	}
 	
+	.confirm { /* email confirmation message */
+	 
+		background-color: #4CAF50; /* Green background */
+		color: white; /* White text */
+		font-size: 24px; /* Large text */
+		font-weight: bold; /* Bold font */
+		text-align: center; /* Center the text */
+		padding: 30px; /* Add padding around the text */
+		border-radius: 10px; /* Rounded corners */
+		margin: 20px; /* Some space around the div */
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for emphasis */
+ 
+	}

@@ -8,9 +8,10 @@
             </section>
 
 <?php
-   error_reporting(E_ALL);
-   require 'vendor/autoload.php';
-   use PHPMailer\PHPMailer\PHPMailer;
+	
+	require 'vendor/autoload.php';
+	use PHPMailer\PHPMailer\PHPMailer;
+
 
 	if($_POST['email']) {
 
@@ -57,7 +58,7 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error =  'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error =  'The email message was sent.';
+			$error =  'Your message has been sent to the admin and we will get back to you shortly.';
 		}
 
 		$mail = new PHPMailer;
@@ -77,10 +78,9 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error = 'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error = 'The email message was sent.';
+			$error = 'Your message has been sent to the admin and we will get back to you shortly.';
 		}
 
-		 
 	}
 }
 
@@ -91,7 +91,7 @@ https://vacationrentals4ny.com
 						<div class="inner">
 							<section>
 								<form method="post" action="./#contact">
-									<div><?=$error?></div>
+									<div class="confirm"><?=$error?></div>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
