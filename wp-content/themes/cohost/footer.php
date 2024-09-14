@@ -33,7 +33,7 @@ Message: ".$message."";
 		
 		// if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
 
-		if( wp_mail( $adminEmail, $emailSubject, $emailContent, $headers, $attachments )) {
+		if( wp_mail( $adminEmail, $emailSubject, $emailContent, $headers )) {
 			$error = 'Message sent! You will receive a confirmation email shortly.'; 
 		} 
 		else {
