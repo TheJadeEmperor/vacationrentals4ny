@@ -12,7 +12,7 @@
 
 	if($_POST['email']) {
 
-		require 'vendor/autoload.php';
+		require '../../../vendor/autoload.php';
 		use PHPMailer\PHPMailer\PHPMailer;
 	
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
