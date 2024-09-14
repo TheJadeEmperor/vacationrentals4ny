@@ -58,7 +58,7 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error =  'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error =  'Your message has been sent to the admin and we will get back to you shortly.';
+			$error = '<div class="confirm">Your message has been sent to the admin and we will get back to you shortly.</div>';
 		}
 
 		$mail = new PHPMailer;
@@ -78,20 +78,20 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error = 'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error = 'Your message has been sent to the admin and we will get back to you shortly.';
+			$error = '<div class="confirm">Your message has been sent to the admin and we will get back to you shortly.</div>';
 		}
 
 	}
 }
 
 ?>
-
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">
 							<section>
 								<form method="post" action="./#contact">
-									<div class="confirm"><?=$error?></div>
+
+									<?=$error?>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
