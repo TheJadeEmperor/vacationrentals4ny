@@ -14,8 +14,6 @@
 
 	if($_POST['email']) {
 
-
-	
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
 
 		$message = $_POST['message'];
@@ -48,10 +46,10 @@ of the message are the following:
 		$mail->Password = $smtpPassword;
 		$mail->setFrom('info@vacationrentals4ny.com', 'Benjamin');
 		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
-		$mail->addAddress($email, 'Receiver Name');
-		$mail->Subject = 'Client EMail';
-		$mail->msgHTML(file_get_contents('message.html'), __DIR__);
-		$mail->Body = 'This is just a plain text message body'; 
+		$mail->addAddress($email, $name);
+		$mail->Subject = $emailSubject;
+		//$mail->msgHTML(file_get_contents('message.html'), __DIR__);
+		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
 			echo 'Mailer Error: ' . $mail->ErrorInfo;
@@ -66,14 +64,14 @@ of the message are the following:
 		$mail->Host = 'smtp.hostinger.com';
 		$mail->Port = 587;
 		$mail->SMTPAuth = true;
-		$mail->Username = 'info@vacationrentals4ny.com';
-		$mail->Password = 'DDDddd444$$$';
-		$mail->setFrom('info@vacationrentals4ny.com', 'Your Name');
-		$mail->addReplyTo('info@vacationrentals4ny.com', 'Your Name');
-		$mail->addAddress($adminEmail, 'Admin Name');
-		$mail->Subject = 'Admin Email';
-		$mail->msgHTML(file_get_contents('message.html'), __DIR__);
-		$mail->Body = 'This is just a plain text message body'; 
+		$mail->Username = $smtpUsername; 
+		$mail->Password = $smtpPassword;
+		$mail->setFrom('info@vacationrentals4ny.com', 'Benjamin');
+		$mail->addReplyTo('info@vacationrentals4ny.com', 'Benjamin');
+		$mail->addAddress($adminEmail, 'Admin Name'); 
+		$mail->Subject = $emailSubject;
+		// $mail->msgHTML(file_get_contents('message.html'), __DIR__);
+		$mail->Body = $emailContent; 
 
 		if (!$mail->send()) {
 			echo 'Mailer Error: ' . $mail->ErrorInfo;
