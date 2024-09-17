@@ -222,16 +222,15 @@ include('header.php');
 							</section>
 					</section>
 
-					<!-- Salisbury NC -->
-					<section id="nc">
+					<!-- East Orange NJ -->
+					<section id="nj">
 						<div class="inner">
 							<header class="major">
-								<h2>Salisbury Neighborhood in <br />North Carolina</h2>
+								<h2>East Orange Neighborhood in <br />New Jersey</h2>
 							</header>
-							<p>Salisbury is situated within the larger metropolitan area of North Carolina. It benefits from its proximity to the vibrant city life of Charlotte while offering a more suburban, laid-back atmosphere.</p>
+							<p>East Orange, New Jersey, is a vibrant city located in Essex County, known for its rich history, diverse community, and convenient proximity to New York City. Once a suburban retreat for wealthy Manhattanites in the late 19th and early 20th centuries, East Orange has evolved into a bustling urban center with a blend of residential neighborhoods, commercial areas, and green spaces.</p>
 
-							<p>The neighborhood features a mix of housing options including single-family homes, townhouses, and apartments. This diversity accommodates a wide range of residents, from young professionals to families and retirees.
-							</p>
+							<p>The city boasts a mix of architectural styles, from historic Victorian homes and classic pre-war apartment buildings to more modern developments. This blend of old and new reflects the city's dynamic character. East Orange is also home to a strong sense of community, with various cultural events, festivals, and neighborhood gatherings that bring residents together. </p>
 								
 						</div>
 					</section>
@@ -240,96 +239,93 @@ include('header.php');
 						<section id="gallery" class="tiles">
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_1.jpg" $alt="<?=$alt?>" />
+									<img src="images/airbnbNJ/outside_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnb2/outside_1.jpg" class="link">Street View</a></h3>
+									<h3><a href="images/airbnbNJ/outside_1.jpg" class="link">Street View</a></h3>
 									<p>Hover mouse over image</p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_2.jpg" $alt="<?=$alt?>" />
+									<img src="images/airbnbNJ/outside_2.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnb2/outside_2.jpg" class="link">Street View</a></h3>
+									<h3><a href="images/airbnbNJ/outside_2.jpg" class="link">Street View</a></h3>
 									<p>Click image to open full size image</p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/outside_3.jpg" $alt="<?=$alt?>" />
+									<img src="images/airbnbNJ/outside_3.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnb2/outside_3.jpg" class="link"></a></h3>
+									<h3><a href="images/airbnbNJ/outside_3.jpg" class="link"></a></h3>
 									<p></p>
 								</header>
 							</article>
 							<article>
 								<span class="image">
-									<img src="images/airbnb2/living_1.jpg" $alt="<?=$alt?>" />
+									<img src="images/airbnbNJ/living_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnb2/living_1.jpg" class="link"></a></h3>
+									<h3><a href="images/airbnbNJ/living_1.jpg" class="link"></a></h3>
 									<p></p>
 								</header>
 							</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/living_2.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/living_2.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-										<h3><a href="images/airbnb2/living_2.jpg" class="link"></a></h3>
+										<h3><a href="images/airbnbNJ/living_2.jpg" class="link"></a></h3>
 										<p></p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/kitch.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/kitch.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-									<h3><a href="images/airbnb2/kitch.jpg" class="link"></h3><p></p></a>
+									<h3><a href="images/airbnbNJ/kitch.jpg" class="link"></h3><p></p></a>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bathroom.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/bathroom.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-										<h3><a href="images/airbnb2/bathroom.jpg" class="link"></a></h3>
+										<h3><a href="images/airbnbNJ/bathroom.jpg" class="link"></a></h3>
 										<p></p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_1.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/bedroom_1.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_1.jpg" class="link"></a></h3>
+										<h3><a href="images/airbnbNJ/bedroom_1.jpg" class="link"></a></h3>
 										<p></p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_2.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/bedroom_2.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_2.jpg" class="link"></a></h3>
+										<h3><a href="images/airbnbNJ/bedroom_2.jpg" class="link"></a></h3>
 										<p></p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/airbnb2/bedroom_3.jpg" $alt="<?=$alt?>" />
+										<img src="images/airbnbNJ/bedroom_3.jpg" $alt="<?=$alt?>" />
 									</span>
 									<header class="major">
-										<h3><a href="images/airbnb2/bedroom_3.jpg" class="link"></a></h3>
+										<h3><a href="images/airbnbNJ/bedroom_3.jpg" class="link"></a></h3>
 										<p></p>
 									</header>
 								</article>
 						</section>
 
 					</div>
-
-				 
- 

@@ -6,7 +6,7 @@
         
     <h1>Vacation Rentals Blog</h1>
     <h2>Get info about Airbnb, vacation rentals, and property management here</h2>
-    </div>
+    </div> 
 </section>
 
 <section id="blog">
@@ -41,7 +41,7 @@ if ($recent_posts_query->have_posts()) {
         <?php
     }
     echo '</div>';
- 
+
     echo '<div class="pagination" style="text-align: center; margin-top: 2em;">';
     echo paginate_links(array(
         'total' => $recent_posts_query->max_num_pages,

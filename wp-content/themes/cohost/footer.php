@@ -76,10 +76,12 @@ https://vacationrentals4ny.com
 }
 
 ?>
+
+
 				<section id="upsell">
 					<div class="inner">
 					
-						<p><span class="image left"><img src="<?=$theme_uri?>images/superhost.jpg" alt="<?=$alt?>" width="unset" /></span>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
+						<p><span class="image left"><img src="<?=$theme_uri?>images/superhost1.jpg" alt="<?=$alt?>" width="unset" /></span>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
 
 						<section style="clear: both;"></section>
 								
@@ -142,7 +144,7 @@ https://vacationrentals4ny.com
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
 										<span>Sheepshead Bay, NY<br />
-										Salisbury, NC<br />
+										East Orange, NJ<br />
 										</span>
 									</div>
 								</section>

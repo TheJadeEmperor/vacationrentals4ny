@@ -18,7 +18,7 @@ $menuGuest = '<ul>
     <li><a href="#banner" class="scrolly">Home</a></li>
     <li><a href="#brooklyn" class="scrolly">Brooklyn</a></li>
     <li><a href="#tours" class="scrolly">Tours</a></li>
-    <li><a href="#nc" class="scrolly">NC</a></li>
+    <li><a href="#nj" class="scrolly">NJ</a></li>
     <li><a href="#contact" class="scrolly">Contact</a></li>
 </ul>';
 
