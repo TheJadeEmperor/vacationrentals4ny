@@ -1,12 +1,3 @@
-<section id="neighborhood">
-					
-                <div class="inner">
-						
-                    <p>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
-							
-                </div>
-            </section>
-
 <?php
 	
 	require 'vendor/autoload.php';
@@ -85,6 +76,16 @@ https://vacationrentals4ny.com
 }
 
 ?>
+				<section id="upsell">
+					<div class="inner">
+					
+						<p><span class="image left"><img src="<?=$theme_uri?>images/superhost.jpg" alt="<?=$alt?>" width="unset" /></span>Below, you can contact us by phone or email about our rentals, tours, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
+
+						<section style="clear: both;"></section>
+								
+					</div>
+				</section>
+
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">

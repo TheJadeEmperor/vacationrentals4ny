@@ -1,11 +1,10 @@
 <?php
 $adminEmail = 'kaiba.corporation.llc@gmail.com'; 
 
-$keywords1 = $alt = 'Airbnb Property Management New York';
-$keywords2 = 'Airbnb Property Management NYC';
-$keywords3 = 'Airbnb Property Management Companies';
-$keywords4 = 'Vacation Rental Property Management';
-$keywords5 = 'Vacation Rentals New Jersey';
+$keywords1 = $alt = 'Airbnb Property Management NY';
+$keywords2 = 'Vacation Rental Property Management NY';
+$keywords3 = 'Airbnb Property Management NJ';
+$keywords4 = 'Vacation Rental Property Management NJ';
 
 $menuHost = '<ul>
     <li><a href="#banner" class="scrolly">Home</a></li>
@@ -36,15 +35,18 @@ $theme_uri = get_template_directory_uri().'/';
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>KaibaCorp Vacation Rentals | <?=$keywords2 ?> | <?=$keywords3 ?></title>
-        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our vacation rental services.">
-        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>, <?=$keywords4 ?>, <?=$keywords5 ?>"/>
+		<title>KaibaCorp Vacation Rentals | Airbnb Property Management in NY & NJ | Vacation Rental Property Management in NY & NJ</title>
+        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.">
+        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>, <?=$keywords4 ?>"/>
+
+		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <meta name="google-site-verification" content="rckWAcSQLBeEmidxTf4S-4X_UTvRVvTX-Q83atJ28lw" />
         
-		<link rel="stylesheet" href="<?=$theme_uri?>assets/css/main.css" />
+		<link rel="stylesheet" href="<?=$theme_uri?>assets/css/main.css" /> 
+		<link rel="stylesheet" href="<?=$theme_uri?>assets/css/blog.css" /> 
 		<noscript><link rel="stylesheet" href="<?=$theme_uri?>assets/css/noscript.css" /></noscript>
        
 	</head>
