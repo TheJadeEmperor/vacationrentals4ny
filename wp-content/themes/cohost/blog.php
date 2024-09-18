@@ -16,7 +16,7 @@
      // Set up paged variable for pagination
      $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
- // Create a custom query to get the latest 5 posts
+    // Create a custom query to get the latest 5 posts
     $recent_posts_query = new WP_Query(array(
         'posts_per_page' => 5, // Set the number of posts to display
         'post_status' => 'publish', // Only show published posts
@@ -32,8 +32,10 @@ if ($recent_posts_query->have_posts()) {
         ?>
         <div class="recent-post-item">
             <h2 class="recent-post-title">
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </h2>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?> </a>
+            </h2> 
+            <span><?php echo get_the_date(); ?> by <?php the_author(); ?></span>
+            
             <div class="recent-post-excerpt">
                 <?php the_excerpt(); ?>
             </div>

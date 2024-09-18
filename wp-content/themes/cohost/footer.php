@@ -3,7 +3,6 @@
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 
-
 	if($_POST['email']) {
 
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
@@ -76,7 +75,6 @@ https://vacationrentals4ny.com
 }
 
 ?>
-
 
 				<section id="upsell">
 					<div class="inner">
@@ -163,7 +161,7 @@ https://vacationrentals4ny.com
 					</footer>
 			</div>
 
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="<?=$theme_uri?>assets/js/jquery.min.js"></script>
 			<script src="<?=$theme_uri?>assets/js/jquery.scrolly.min.js"></script>
 			<script src="<?=$theme_uri?>assets/js/jquery.scrollex.min.js"></script>

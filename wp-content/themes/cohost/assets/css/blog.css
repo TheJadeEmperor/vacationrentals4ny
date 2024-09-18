@@ -28,3 +28,7 @@ Version: 1.0
     color: #fff;
     border-radius: 3px;
 }
+
+.recent-post-title {
+    margin-bottom: 0em;
+}
