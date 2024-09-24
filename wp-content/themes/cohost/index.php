@@ -107,9 +107,10 @@ include('header.php');
 							<div class="content">
 							<div class="inner">
 								<header class="major">
-									<h3 id="marketing">Marketing & SEO Strategies</h3>
+									<h3 id="marketing">Revenue Management</h3>
 								</header>
-								<p>We will market your property on different platorms using SEO strategies. Also we can create a complimentary website for your property, free of charge, as your cohost. We use data from different tools to charge competitive prices and your occupancy rate is optimal.</p>
+								<p>We use data from different pricing tools to optimize the balance between nightly price and occupancy so you can increase your bottom line. 
+								Also we will create a complimentary website for your property, free of charge, as your cohost. </p>
 								<ul class="actions">
 									<li><a href="#contact" class="button primary fit scrolly">Contact Us</a></li>
 								</ul>

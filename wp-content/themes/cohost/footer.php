@@ -1,10 +1,12 @@
 <?php
-	
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 
 	if($_POST['email']) {
-
+		
+		if($_POST['website'])  //website field is honeypot for scammers
+			exit; 
+		
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
 
 		$message = $_POST['message'];
@@ -117,6 +119,7 @@ https://vacationrentals4ny.com
 										</div>
 									</div>
 									<ul class="actions">
+										<input type="hidden" name="website" id="website" />
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
