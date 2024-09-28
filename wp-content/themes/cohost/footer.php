@@ -2,7 +2,7 @@
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 
-	if($_POST['email']) {
+	if($_POST['email'] && $_POST['address']) {
 		
 		if($_POST['website'])  //website field is honeypot for scammers
 			exit; 
@@ -16,7 +16,7 @@
 		$phone = $_POST['phone']; 
 		
 	if(!$error) {
-		$emailSubject = "Vacation Rentals: We Received Your Inquiry";
+		$emailSubject = "KaibaCorp Vacation Rentals: We Received Your Inquiry";
 		$emailContent = "KaibaCorp Vacation Rentals has received your email. We will contact you as soon as possible. 
 
 Full Name: ".$name."
@@ -32,7 +32,6 @@ Airbnb Host & STR Manager
 https://vacationrentals4ny.com
 -----------------------------";
 				
-
 		$mail = new PHPMailer;
 		$mail->isSMTP();
 		$mail->SMTPDebug = 0;
@@ -158,7 +157,7 @@ https://vacationrentals4ny.com
 						<div class="inner">
 						
 							<ul class="copyright">
-								<li>KaibaCorp Vacation Rentals & Tours &copy; <?=date('Y')?> </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+								<li>KaibaCorp Vacation Rentals &copy; <?=date('Y')?> </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
 							</ul>
 						</div>
 					</footer>
