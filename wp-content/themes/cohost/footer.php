@@ -2,18 +2,23 @@
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 
-	if($_POST['email'] && $_POST['address']) {
+	if($_POST['submitForm']) {
 		
-		if($_POST['website'])  //website field is honeypot for scammers
-			exit; 
-		
-		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
-
 		$message = $_POST['message'];
 		$name = $_POST['name']; 
 		$email = $_POST['email'];
 		$address = $_POST['address'];
 		$phone = $_POST['phone']; 
+
+		if($_POST['website'])  //website field is honeypot for scammers
+			exit; 
+ 
+		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $email) ? '' : 'INVALID EMAIL ADDRESS';
+
+		if(!$phone || !$address) {
+			$error = 'You must fill out phone and address';
+		}
+
 		
 	if(!$error) {
 		$emailSubject = "KaibaCorp Vacation Rentals: We Received Your Inquiry";
@@ -49,7 +54,7 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error =  'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error = '<div class="confirm">Your message has been sent to the admin and we will get back to you shortly.</div>';
+			$error = 'Your message has been sent to the admin and we will get back to you shortly.';
 		}
 
 		$mail = new PHPMailer;
@@ -69,10 +74,11 @@ https://vacationrentals4ny.com
 		if (!$mail->send()) {
 			$error = 'Mail was not sent to due error: ' . $mail->ErrorInfo;
 		} else {
-			$error = '<div class="confirm">Your message has been sent to the admin and we will get back to you shortly.</div>';
-		}
+			$error = 'Your message has been sent to the admin and we will get back to you shortly.';
+		} 
 
 	}
+	$error = '<div class="confirm">'.$error.'</div>';
 }
 
 ?>
@@ -94,6 +100,7 @@ https://vacationrentals4ny.com
 								<form method="post" action="./#contact">
 
 									<?=$error?>
+
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -119,7 +126,7 @@ https://vacationrentals4ny.com
 									</div>
 									<ul class="actions">
 										<input type="hidden" name="website" id="website" />
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="submit" value="Send Message" name="submitForm"  class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
