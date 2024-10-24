@@ -164,6 +164,8 @@ https://vacationrentals4ny.com
 						<div class="inner">
 						<ul class="icons">
 								<li><a href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram" target="_BLANK"><span class="label">Instagram</span></a></li>
+								<li><a href="https://g.page/r/CeCXZ7bTpIKrEAI" class="icon brands alt fa-google" target="_BLANK"><span class="label">Google</span></a></li>
+
 								<li><a href="./blog/" class="icon brands alt fa-blogger" target="_BLANK"><span class="label">Blog</span></a></li>
 								<li><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious" target="_BLANK"><span class="label">LinkedIn</span></a></li>
 							</ul>
