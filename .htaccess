@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteRule ^guests$ ./wp-content/themes/cohost/guests.php [NC]
+RewriteRule ^guests$ ./guests/ [NC]
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
