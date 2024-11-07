@@ -41,13 +41,22 @@ else
     $mainMenu = $menuHost;
 
 $theme_uri = get_template_directory_uri().'/';
+
+
+//if is a single post, show post title, else, show website title
+//is_single()  ? single_post_title('', true) : wp_title(); 
+//is_single() ? single_post_title('', true) : bloginfo('name'); echo " - "; bloginfo('description');
+
+//We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services."
 ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>KaibaCorp Vacation Rentals | Airbnb Property Management in NY & NJ | Vacation Rental Property Management in NY & NJ</title>
-        <meta name="description" content="We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.">
-        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>, <?=$keywords4 ?>"/>
+		<title><?php is_single() ? single_post_title('', true) : wp_title(); ?></title> 
+       
+		<meta name="description" content="<?php  is_single() ? single_post_title('', true) : bloginfo('description');  ?>" />
+
+        <meta name="keywords" content="<?=$keywords1 ?>, <?=$keywords2 ?>, <?=$keywords3 ?>, <?=$keywords4 ?>" />
 
 		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
