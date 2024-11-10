@@ -44,7 +44,7 @@ $theme_uri = get_template_directory_uri().'/';
 
 
 function showDesc () {
-	echo "We are a boutique vcation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.";
+	echo "We are a boutique vacation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.";
 }
 
 function showTitle () {

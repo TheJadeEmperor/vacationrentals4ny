@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+ 
 ?>
 				<!-- Banner -->
 				<section id="banner" class="major">
@@ -237,95 +237,132 @@ include('header.php');
 
 						<!-- House -->
 						<section id="gallery" class="tiles">
-							<article>
+							<article><!-- living room -->
 								<span class="image">
-									<img src="images/airbnbNJ/outside_1.jpg" $alt="<?=$alt?>" />
+									<img src="<?=$theme_uri?>images/airbnbNJ/living_6.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnbNJ/outside_1.jpg" class="link">Street View</a></h3>
-									<p>Hover mouse over image</p>
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/living_6.jpg" class="link">Cozy Living Room</a></h3>
+									<p>With Fireplace and TV</p>
 								</header>
 							</article>
-							<article>
+							<article><!-- living room -->
 								<span class="image">
-									<img src="images/airbnbNJ/outside_2.jpg" $alt="<?=$alt?>" />
+									<img src="<?=$theme_uri?>images/airbnbNJ/living_night_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnbNJ/outside_2.jpg" class="link">Street View</a></h3>
-									<p>Click image to open full size image</p>
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/living_night_1.jpg" class="link">Living Room</a></h3>
+									<p>With Fireplace and TV</p>
 								</header>
 							</article>
-							<article>
+							<article><!-- bedroom 1 -->
 								<span class="image">
-									<img src="images/airbnbNJ/outside_3.jpg" $alt="<?=$alt?>" />
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_1_1.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnbNJ/outside_3.jpg" class="link"></a></h3>
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_1_1.jpg" class="link"></a></h3>
 									<p></p>
 								</header>
 							</article>
-							<article>
+							<article><!-- bedroom 1 -->
 								<span class="image">
-									<img src="images/airbnbNJ/living_1.jpg" $alt="<?=$alt?>" />
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_1_3.jpg" $alt="<?=$alt?>" />
 								</span>
 								<header class="major">
-									<h3><a href="images/airbnbNJ/living_1.jpg" class="link"></a></h3>
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_1_3.jpg" class="link"></a></h3>
 									<p></p>
 								</header>
 							</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/living_2.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnbNJ/living_2.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/kitch.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-									<h3><a href="images/airbnbNJ/kitch.jpg" class="link"></h3><p></p></a>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/bathroom.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnbNJ/bathroom.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/bedroom_1.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnbNJ/bedroom_1.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/bedroom_2.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnbNJ/bedroom_2.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/airbnbNJ/bedroom_3.jpg" $alt="<?=$alt?>" />
-									</span>
-									<header class="major">
-										<h3><a href="images/airbnbNJ/bedroom_3.jpg" class="link"></a></h3>
-										<p></p>
-									</header>
-								</article>
+							<article><!-- bedroom 1 -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_1_4.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_1_4.jpg" class="link"></a></h3>
+									<p></p>
+								</header>
+							</article>
+							<article><!-- bedroom 2 -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/twin_1.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+								<h3><a href="<?=$theme_uri?>images/airbnbNJ/twin_1.jpg" class="link"></h3><p></p></a>
+								</header>
+							</article>
+							<article><!-- bedroom 3 -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_3_1.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_3_1.jpg" class="link"></a></h3>
+									<p></p>
+								</header>
+							</article>
+							<article><!-- bedroom 3 -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_3_3.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_3_3.jpg" class="link"></a></h3>
+									<p></p>
+								</header>
+							</article>
+							<article><!-- dining -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/dining.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/dining.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+							<article><!-- bedroom 4 -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/bedroom_4_4.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bedroom_4_4.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+						
+							<article><!-- kitch -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/kitch_1.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/kitch_1.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+							<article><!-- kitch -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/kitch_2.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/kitch_2.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+							<article><!-- kitch -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/kitch_3.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/kitch_3.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+							<article><!-- bathroom -->
+								<span class="image">
+									<img src="<?=$theme_uri?>images/airbnbNJ/bath_1.jpg" $alt="<?=$alt?>" />
+								</span>
+								<header class="major">
+									<h3><a href="<?=$theme_uri?>images/airbnbNJ/bath_1.jpg" class="link"></a></h3>
+									<p></p>
+								</header> 
+							</article>
+							 
 						</section>
-
 					</div>
