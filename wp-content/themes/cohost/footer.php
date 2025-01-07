@@ -6,12 +6,12 @@
 	if($_POST['submitForm']) {
 		
 		$message = $_POST['message'];
-		$name = $_POST['name']; 
-		$email = $_POST['email'];
+		$name = $_POST['fullName']; 
+		$email = $_POST['emailAddr'];
 		$address = $_POST['address'];
 		$phone = $_POST['phone']; 
 
-		if($_POST['website'])  //website field is honeypot for scammers
+		if($_POST['url'])  //website field is honeypot for scammers
 			exit; 
  
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $email) ? '' : 'INVALID EMAIL ADDRESS';
@@ -105,11 +105,11 @@ https://vacationrentals4ny.com
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="fullName" id="fullName" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<input type="text" name="emailAddr" id="emailAddr" />
 										</div>
 										 
 										<div class="field half">
@@ -123,10 +123,10 @@ https://vacationrentals4ny.com
 										<div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="6"></textarea>
+											<input type="hidden" name="url" id="url" />
 										</div>
 									</div>
 									<ul class="actions">
-										<input type="hidden" name="website" id="website" />
 										<li><input type="submit" value="Send Message" name="submitForm"  class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
