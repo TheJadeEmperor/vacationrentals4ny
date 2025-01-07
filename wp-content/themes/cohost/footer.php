@@ -11,7 +11,7 @@
 		$address = $_POST['address'];
 		$phone = $_POST['phone']; 
 
-		if($_POST['  website'])  //website field is honeypot for scammers
+		if($_POST['website'])  //website field is honeypot for scammers
 			exit; 
  
 		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $email) ? '' : 'INVALID EMAIL ADDRESS';
