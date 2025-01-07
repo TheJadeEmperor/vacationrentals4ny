@@ -10,7 +10,7 @@
 require_once __DIR__ . '/admin.php';
 require ABSPATH . 'wp-admin/includes/theme-install.php';
 
-$tab = ! empty( $_REQUEST['tab'] ) ? sanitize_text_field( $_REQUEST['tab'] ) : '';
+wp_reset_vars( array( 'tab' ) );
 
 if ( ! current_user_can( 'install_themes' ) ) {
 	wp_die( __( 'Sorry, you are not allowed to install themes on this site.' ) );
@@ -56,6 +56,7 @@ wp_localize_script(
 		'l10n'            => array(
 			'addNew'              => __( 'Add New Theme' ),
 			'search'              => __( 'Search Themes' ),
+			'searchPlaceholder'   => __( 'Search themes...' ), // Placeholder (no ellipsis).
 			'upload'              => __( 'Upload Theme' ),
 			'back'                => __( 'Back' ),
 			'error'               => sprintf(
@@ -182,14 +183,9 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 
 	<hr class="wp-header-end">
 
-	<?php
-	wp_admin_notice(
-		__( 'The Theme Installer screen requires JavaScript.' ),
-		array(
-			'additional_classes' => array( 'error', 'hide-if-js' ),
-		)
-	);
-	?>
+	<div class="error hide-if-js">
+		<p><?php _e( 'The Theme Installer screen requires JavaScript.' ); ?></p>
+	</div>
 
 	<div class="upload-theme">
 	<?php install_themes_upload(); ?>
@@ -216,7 +212,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 
 		<button type="button" class="button drawer-toggle" aria-expanded="false"><?php _e( 'Feature Filter' ); ?></button>
 
-		<form class="search-form"><p class="search-box"></p></form>
+		<form class="search-form"></form>
 
 		<div class="favorites-form">
 			<?php
@@ -322,15 +318,7 @@ if ( $tab ) {
 	<# } #>
 
 	<# if ( data.installed ) { #>
-		<?php
-		wp_admin_notice(
-			_x( 'Installed', 'theme' ),
-			array(
-				'type'               => 'success',
-				'additional_classes' => array( 'notice-alt' ),
-			)
-		);
-		?>
+		<div class="notice notice-success notice-alt"><p><?php _ex( 'Installed', 'theme' ); ?></p></div>
 	<# } #>
 
 	<# if ( ! data.compatible_wp || ! data.compatible_php ) { #>

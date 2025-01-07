@@ -88,7 +88,6 @@ function showTitle () {
 						<a href="./" class="logo"><strong>KaibaCorp</strong> <span>Vacation Rentals</span></a>
 
 						<nav class="navbar">
-						 
 							<div class="navbar-links">
 								<?=$mainMenu; ?>
 							</div>
@@ -100,5 +99,5 @@ function showTitle () {
 
 				<!-- Menu -->
 					<nav id="menu">
-						<?=$threeDotsMenu ?>
+						<?php echo $threeDotsMenu ?>
 					</nav>

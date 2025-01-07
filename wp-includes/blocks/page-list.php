@@ -9,8 +9,6 @@
  * Build an array with CSS classes and inline styles defining the colors
  * which will be applied to the pages markup in the front-end when it is a descendant of navigation.
  *
- * @since 5.8.0
- *
  * @param  array $attributes Block attributes.
  * @param  array $context    Navigation block context.
  * @return array Colors CSS classes and inline styles.
@@ -103,8 +101,6 @@ function block_core_page_list_build_css_colors( $attributes, $context ) {
  * Build an array with CSS classes and inline styles defining the font sizes
  * which will be applied to the pages markup in the front-end when it is a descendant of navigation.
  *
- * @since 5.8.0
- *
  * @param  array $context Navigation block context.
  * @return array Font size CSS classes and inline styles.
  */
@@ -139,8 +135,6 @@ function block_core_page_list_build_css_font_sizes( $context ) {
 /**
  * Outputs Page list markup from an array of pages with nested children.
  *
- * @since 5.8.0
- *
  * @param boolean $open_submenus_on_click Whether to open submenus on click instead of hover.
  * @param boolean $show_submenu_icons Whether to show submenu indicator icons.
  * @param boolean $is_navigation_child If block is a child of Navigation block.
@@ -156,8 +150,7 @@ function block_core_page_list_render_nested_page_list( $open_submenus_on_click, 
 	if ( empty( $nested_pages ) ) {
 		return;
 	}
-	$front_page_id = (int) get_option( 'page_on_front' );
-	$markup        = '';
+	$markup = '';
 	foreach ( (array) $nested_pages as $page ) {
 		$css_class       = $page['is_active'] ? ' current-menu-item' : '';
 		$aria_current    = $page['is_active'] ? ' aria-current="page"' : '';
@@ -188,6 +181,7 @@ function block_core_page_list_render_nested_page_list( $open_submenus_on_click, 
 			}
 		}
 
+		$front_page_id = (int) get_option( 'page_on_front' );
 		if ( (int) $page['page_id'] === $front_page_id ) {
 			$css_class .= ' menu-item-home';
 		}
@@ -226,8 +220,6 @@ function block_core_page_list_render_nested_page_list( $open_submenus_on_click, 
 /**
  * Outputs nested array of pages
  *
- * @since 5.8.0
- *
  * @param array $current_level The level being iterated through.
  * @param array $children The children grouped by parent post ID.
  *
@@ -247,8 +239,6 @@ function block_core_page_list_nest_pages( $current_level, $children ) {
 
 /**
  * Renders the `core/page-list` block on server.
- *
- * @since 5.8.0
  *
  * @param array    $attributes The block attributes.
  * @param string   $content    The saved content.
@@ -292,14 +282,14 @@ function render_block_core_page_list( $attributes, $content, $block ) {
 			$pages_with_children[ $page->post_parent ][ $page->ID ] = array(
 				'page_id'   => $page->ID,
 				'title'     => $page->post_title,
-				'link'      => get_permalink( $page ),
+				'link'      => get_permalink( $page->ID ),
 				'is_active' => $is_active,
 			);
 		} else {
 			$top_level_pages[ $page->ID ] = array(
 				'page_id'   => $page->ID,
 				'title'     => $page->post_title,
-				'link'      => get_permalink( $page ),
+				'link'      => get_permalink( $page->ID ),
 				'is_active' => $is_active,
 			);
 
@@ -355,8 +345,6 @@ function render_block_core_page_list( $attributes, $content, $block ) {
 
 /**
  * Registers the `core/pages` block on server.
- *
- * @since 5.8.0
  */
 function register_block_core_page_list() {
 	register_block_type_from_metadata(
