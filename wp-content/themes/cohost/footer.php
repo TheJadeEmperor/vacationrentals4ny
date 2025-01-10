@@ -6,18 +6,22 @@
 	if($_POST['submitForm']) {
 		
 		$message = $_POST['message'];
-		$name = $_POST['fullName']; 
-		$email = $_POST['emailAddr'];
+		$fullName = $_POST['fullName']; 
+		$emailAddr = $_POST['emailAddr'];
 		$address = $_POST['address'];
 		$phone = $_POST['phone']; 
 
 		if($_POST['url'])  //website field is honeypot for scammers
 			exit; 
  
-		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $email) ? '' : 'INVALID EMAIL ADDRESS';
+		$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $emailAddr) ? '' : 'Invalid email address';
 
 		if(!$phone || !$address) {
-			$error = 'You must fill out phone and address';
+			$error = 'You must fill out phone and address'; 
+		}
+
+		if(!strpos($address, ' ')) { //check address
+			$error = 'Invalid street address'; 
 		}
 
 		
@@ -25,8 +29,8 @@
 		$emailSubject = "KaibaCorp Vacation Rentals: We Received Your Inquiry";
 		$emailContent = "KaibaCorp Vacation Rentals has received your email. We will contact you as soon as possible. 
 
-Full Name: ".$name."
-Email: ".$email."
+Full Name: ".$fullName."
+Email: ".$emailAddr."
 Address: ".$address."
 Phone #: ".$phone."
 Message: ".$message." 
@@ -105,24 +109,23 @@ https://vacationrentals4ny.com
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="fullName" id="fullName" />
+											<input type="text" name="fullName" id="fullName" value="<?=$fullName?>" />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="emailAddr" id="emailAddr" />
+											<input type="text" name="emailAddr" id="emailAddr" value="<?=$emailAddr?>" />
 										</div>
-										 
 										<div class="field half">
-											<label for="address">Address</label>
-											<input type="text" name="address" id="address" />
+											<label for="address">Full Address</label>
+											<input type="text" name="address" id="address" value="<?=$address?>" />
 										</div>
 										<div class="field half">
 											<label for="phone">Phone #</label>
-											<input type="text" size="25" name="phone" id="phone" />
+											<input type="text" size="25" name="phone" id="phone" value="<?=$phone?>" />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+											<textarea name="message" id="message" rows="6" value="<?=$message?>"></textarea>
 											<input type="hidden" name="url" id="url" />
 										</div>
 									</div>
