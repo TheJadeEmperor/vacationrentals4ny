@@ -45,7 +45,7 @@ $theme_uri = get_template_directory_uri().'/';
 
 function showDesc () {
 	echo "We are a boutique vacation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.";
-}
+} 
 
 function showTitle () {
 	echo 'KaibaCorp Vacation Rentals | Airbnb Property Management NY | Airbnb Property Management Companies';
@@ -55,7 +55,6 @@ function showTitle () {
 //if is a single post, show post title, else, show website title
 //is_single()  ? single_post_title('', true) : wp_title(); 
 //is_single() ? single_post_title('', true) : bloginfo('name'); echo " - "; bloginfo('description');
-
 
 ?>
 <!DOCTYPE HTML>
@@ -77,27 +76,37 @@ function showTitle () {
 		<link rel="stylesheet" href="<?=$theme_uri?>assets/css/blog.css" /> 
 		<noscript><link rel="stylesheet" href="<?=$theme_uri?>assets/css/noscript.css" /></noscript>
        
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DQEX2WBFQ"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-7DQEX2WBFQ');
+		</script>
+
 	</head>
 	<body class="is-preload">
         
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper"> 
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="./" class="logo"><strong>KaibaCorp</strong> <span>Vacation Rentals</span></a>
+				<header id="header" class="alt">
+					<a href="./" class="logo"><strong>KaibaCorp</strong> <span>Vacation Rentals</span></a>
 
-						<nav class="navbar">
-							<div class="navbar-links">
-								<?=$mainMenu; ?>
-							</div>
-						</nav>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+					<nav class="navbar">
+						<div class="navbar-links">
+							<?=$mainMenu; ?>
+						</div>
+					</nav>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<?php echo $threeDotsMenu ?>
-					</nav>
+				<nav id="menu">
+					<?php echo $threeDotsMenu ?>
+				</nav>
