@@ -50,10 +50,8 @@ https://vacationrentals4ny.com
 		$mail->SMTPAuth = true; 
 		$mail->Username = $smtpUsername; 
 		$mail->Password = $smtpPassword;
-		$mail->setFrom('deadcat@cat.com', 'sword');
-		$mail->addReplyTo('dead@cat.com', 'sword');
-		//$mail->setFrom($smtpUsername, 'Benjamin');
-		//$mail->addReplyTo($smtpUsername, 'Benjamin');
+		$mail->setFrom($smtpUsername, 'Benjamin');
+		$mail->addReplyTo($smtpUsername, 'Benjamin');
 		$mail->addAddress($email, $name);
 		$mail->Subject = $emailSubject;
 		$mail->Body = $emailContent; 
