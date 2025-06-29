@@ -1,5 +1,7 @@
+
 <?php
-	//
+$emailAddr = $fullName = $address = $phone = $message = '';
+	//phpmailer 
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
 
@@ -147,10 +149,10 @@ https://vacationrentals4ny.com
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3>
-										<span>347-389-4994</span>
+										<span>570-232-3714</span>
 									</div>
 								</section>
-								<section>
+								<section> 
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
