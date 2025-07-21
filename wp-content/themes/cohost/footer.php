@@ -1,6 +1,6 @@
 
 <?php
-$emailAddr = $fullName = $address = $phone = $message = '';
+	$emailAddr = $fullName = $address = $phone = $message = '';
 	//phpmailer 
 	require 'vendor/autoload.php';
 	use PHPMailer\PHPMailer\PHPMailer;
@@ -155,10 +155,8 @@ https://vacationrentals4ny.com
 								<section> 
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>Sheepshead Bay, NY<br />
-										East Orange, NJ<br />
-										</span>
+										<h3>Location</h3>
+										<span><a target="_BLANK" href="https://g.page/r/CeCXZ7bTpIKrEAI"  >Visit Our Google Page</a></span>
 									</div>
 								</section>
 							</section>
@@ -169,15 +167,16 @@ https://vacationrentals4ny.com
 					<footer id="footer">
 						<div class="inner">
 						<ul class="icons">
-								<li><a href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram" target="_BLANK"><span class="label">Instagram</span></a></li>
-								<li><a href="https://g.page/r/CeCXZ7bTpIKrEAI" class="icon brands alt fa-google" target="_BLANK"><span class="label">Google</span></a></li>
+								<!--<li><a target="_BLANK" href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>--> 
+								
+								<li><a target="_BLANK" href="https://g.page/r/CeCXZ7bTpIKrEAI" class="icon brands alt fa-google"><span class="label">Google</span></a></li>
 
-								<li><a href="./blog/" class="icon brands alt fa-blogger" target="_BLANK"><span class="label">Blog</span></a></li>
-								<li><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious" target="_BLANK"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
+								<li><a target="_BLANK" href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li>
 							</ul>
 
 							<ul class="copyright">
-								<li>KaibaCorp Vacation Rentals &copy; <?=date('Y')?> </li><li>Design: <a href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+								<li>KaibaCorp Vacation Rentals &copy; <?=date('Y')?> </li><li>Design: <a target="_BLANK" href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
 							</ul>
 						</div>
 					</footer>

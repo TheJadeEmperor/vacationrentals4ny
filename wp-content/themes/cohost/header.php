@@ -1,5 +1,5 @@
 <?php
-$adminEmail = 'kaiba.corporation.llc@gmail.com'; 
+$adminEmail = 'LittleBookStays@gmail.com'; 
 
 $keywords1 = $alt = 'Airbnb Property Management NY';
 $keywords2 = 'Vacation Rental Property Management NY';
