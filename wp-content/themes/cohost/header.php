@@ -26,8 +26,6 @@ $menuGuest = '<ul>
 $threeDotsMenu = '<ul class="actions stacked">
 	<li><a href="/" class="button primary fit scrolly">For Hosts</a></li>
 	<li><a href="/#services" class="button fit scrolly">Cohost Services</a></li>
-	<li><a href="/guests/" class="button primary fit scrolly">For Guests</a></li>
-	<li><a href="/guests/#services" class="button fit scrolly">Guest Services</a></li>
 	<li><a href="/blog/" class="button primary fit scrolly">Blog</a></li>
 	<li><a href="#contact" class="button fit scrolly">Contact</a></li>
 </ul>';

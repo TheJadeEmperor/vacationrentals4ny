@@ -86,7 +86,7 @@ include('header.php');
 							<div class="content">
 								<div class="inner">
 									<header class="major">
-										<h3 id="cleaning">Careful Cleaning & Maintenance</h3>
+										<h3 id="cleaning">Cleaning & Maintenance</h3>
 									</header>
 									<p>All of our cleaners have been screened by us, ensuring your property is maintained to the highest standards of cleanliness.</p>
 
@@ -107,8 +107,7 @@ include('header.php');
 								<header class="major">
 									<h3 id="marketing">Revenue Management</h3>
 								</header>
-								<p>We use data from different pricing tools to optimize the balance between nightly price and occupancy so you can increase your bottom line. 
-								Also we will create a complimentary website for your property, free of charge, if you join our team.</p>
+								<p>We use data from different pricing tools to optimize the balance between nightly price and occupancy so you can increase your bottom line. On average we helped our clients increase their revenue by 20%, sometimes even 30%. </p>
 								<ul class="actions">
 									<li><a href="#contact" class="button primary fit scrolly">Contact Us</a></li>
 								</ul>
