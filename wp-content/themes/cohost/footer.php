@@ -1,5 +1,6 @@
 
 <?php
+/*
 	$emailAddr = $fullName = $address = $phone = $message = '';
 	//phpmailer 
 	require 'vendor/autoload.php';
@@ -88,6 +89,7 @@ https://vacationrentals4ny.com
 	$error = '<div class="confirm">'.$error.'</div>';
 }
 
+*/
 ?>
 
 				<section id="upsell">
@@ -104,7 +106,14 @@ https://vacationrentals4ny.com
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="./#contact">
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/kaiba-online-acc/prop-mgr" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+
+							<!--	<form method="post" action="./#contact">
 
 									<?=$error?>
 
@@ -136,6 +145,7 @@ https://vacationrentals4ny.com
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</form>
+-->
 							</section>
 							<section class="split">
 								<section>
