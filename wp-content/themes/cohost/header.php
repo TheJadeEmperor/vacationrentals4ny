@@ -42,17 +42,13 @@ $theme_uri = get_template_directory_uri().'/';
 
 
 function showDesc () {
-	echo "We are a boutique vacation rental company that specializes in airbnb property managment in NYC, New Jersey, and the greater New York area. Contact us to find out about our property management or cohosting services.";
+	echo "We are a boutique vacation rental company that specializes in airbnb property managment in the East Coast. Contact us to find out about our property management or cohosting services.";
 } 
 
 function showTitle () {
-	echo 'KaibaCorp Vacation Rentals | Airbnb Property Management NY | Airbnb Property Management Companies';
+	echo 'Little Book Stays | Airbnb Property Management | Airbnb Property Management Poconos | Airbnb Property Management North Carolina'; 
 }
 
-
-//if is a single post, show post title, else, show website title
-//is_single()  ? single_post_title('', true) : wp_title(); 
-//is_single() ? single_post_title('', true) : bloginfo('name'); echo " - "; bloginfo('description');
 
 ?>
 <!DOCTYPE HTML>
@@ -92,7 +88,7 @@ function showTitle () {
 
 				<!-- Header -->
 				<header id="header" class="alt">
-					<a href="./" class="logo"><strong>KaibaCorp</strong> <span>Vacation Rentals</span></a>
+					<a href="./" class="logo"><strong>Little Book</strong><span>Stays</span></a>
 
 					<nav class="navbar">
 						<div class="navbar-links">
