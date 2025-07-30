@@ -15,9 +15,9 @@ $menuHost = '<ul>
 </ul>';
 
 $menuGuest = '<ul>
-    <li><a href="/guests/#banner" class="scrolly">Home</a></li>
-    <li><a href="/guests/#brooklyn" class="scrolly">Brooklyn</a></li>
-    <li><a href="/guests/#tours" class="scrolly">Tours</a></li> 
+    <li><a href="#banner" class="scrolly">Home</a></li>
+    <li><a href="#brooklyn" class="scrolly">Brooklyn</a></li>
+    <li><a href="#tours" class="scrolly">Tours</a></li> 
 	<li><a href="/blog" class="scrolly">Blog</a></li>
     <li><a href="#contact" class="scrolly">Contact</a></li>
 </ul>';
