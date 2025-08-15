@@ -112,7 +112,7 @@
 			<header class="major">
 				<h2>Brooklyn Tours</h2>
 			</header>
-			<p>Check out our Brooklyn Tours. You can book directly with us or on Airbnb. Tips are optional but appreciated.</p>
+			<p>Check out our Brooklyn Tours below. You can register for a private tour by adding a booking on the calendar. After the tour has concluded, you will receive the tour fee on Airbnb under "extra services". </p>
 		</div>
 	</section>
 
@@ -128,8 +128,8 @@
 					</header>
 					<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
 					<ul class="actions">
-						<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-						<li><a href="mailto:<?=$adminEmail?>" class="button primary ">Book Directly with Us</a></li>
+						<li><a href="#contact" class="scrolly button">Book this Tour</a></li>
+						<li><a href="#contact" class="scrolly button primary ">Book for $89</a></li>
 					</ul>
 				</div>
 			</div>
@@ -146,8 +146,8 @@
 						</header>
 						<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
 						<ul class="actions">
-							<li><a href="https://www.airbnb.com/experiences/4496855" class="button">Book with Airbnb</a></li>
-							<li><a href="mailto:<?=$adminEmail?>" class="button primary">Book Directly with Us</a></li>
+							<li><a href="#contact" class="scrolly button">Book this Tour</a></li>
+							<li><a  href="#contact" class="scrolly button primary">Book for $89</a></li>
 						</ul>
 					</div>
 				</div>
@@ -192,9 +192,9 @@
 						<header class="major">
 							<h3>Housekeeping</h3>
 						</header>
-						<p>Upon request, we can do housekeeping during your stay. The price depends on the frequency of cleanings. Choose this option and feel like you're coming to a clean, fresh home. When you are on vacation mode, the last thing you want to worry about is cleaning, taking out the trash, etc.</p>
+						<p>Upon request, we can do housekeeping during your stay. The price depends on the frequency of cleanings. Choose this option and feel like you're coming to a clean, fresh home. When you are on vacation mode, the last thing you want to worry about is cleaning, taking out the trash, etc. This service is $39 per cleaning. </p>
 						<ul class="actions">
-							<li><a href="mailto:<?=$adminEmail?>" class="button">Book with Us</a></li> 
+							<li><a href="#contact" class="scrolly button">Book with Us</a></li> 
 						</ul>
 					</div>
 				</div>
@@ -211,8 +211,7 @@
 					</header>
 					<p>This option is for those who want to stay fit even during a vacation. A fitness trainer will take you to the gym and will train you fo 1 hour to 1.5 hours. You can choose a weight lifting or cardio workout.</p>
 					<ul class="actions">
-							
-						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $29</a></li>
+						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $39</a></li>
 					</ul>
 				</div>
 			</div>
