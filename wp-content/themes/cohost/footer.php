@@ -38,10 +38,10 @@
 								</section>
 								<section> 
 									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
+										<!--<span class="icon solid alt fa-home"></span>-->
 										
-										<h3>Location</h3>
-										<span><a target="_BLANK" href="https://g.page/r/CeCXZ7bTpIKrEAI">Visit Our Google Page</a></span>
+										<h3> </h3>
+										<span> </span>
 									</div>
 								</section>
 							</section>
@@ -54,8 +54,6 @@
 							<ul class="icons">
 								<li><a target="_BLANK" href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 								
-								<li><a target="_BLANK" href="https://g.page/r/CeCXZ7bTpIKrEAI" class="icon brands alt fa-google"><span class="label">Google</span></a></li>
-
 								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
 								<li><a target="_BLANK" href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li>
 
