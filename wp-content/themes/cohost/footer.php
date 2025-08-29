@@ -22,8 +22,10 @@
 
 							</section>
 							<section class="split">
+								<p>&nbsp;</p>
 								<section>
 									<div class="contact-method">
+										
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
 										<a href="mailto:<?=$adminEmail?>"><?=$adminEmail?></a>
@@ -38,10 +40,10 @@
 								</section>
 								<section> 
 									<div class="contact-method">
-										<!--<span class="icon solid alt fa-home"></span>-->
+										<span class="icon solid alt fa-blog"></span>
 										
-										<h3> </h3>
-										<span> </span>
+										<h3>Blog</h3>
+										<span><a target="_BLANK" href="./blog/">Click here to read our blog</a></span>
 									</div>
 								</section>
 							</section>
@@ -55,14 +57,18 @@
 								<li><a target="_BLANK" href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 								
 								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
-								<li><a target="_BLANK" href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_BLANK" href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li> 
 
-								<li><a target="_BLANK" href="https://nypost.com/2025/04/23/us-news/brooklyn-protesters-camping-24-7-outside-proposed-homeless-shelter/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_BLANK" href="https://nypost.com/2025/04/23/us-news/brooklyn-protesters-camping-24-7-outside-proposed-homeless-shelter/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li> 
+							</ul> 
+
+							<ul class="icons">
+								<li>Little Book Stays &copy; <?=date('Y')?> </li>
+								<li>Design: <a target="_BLANK" href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
+								<li><a href="/privacy/">Privacy Policy</a></li>
+								<li><a href="/terms/">Terms</a></li>
 							</ul>
 
-							<ul class="copyright">
-								<li>Little Book Stays &copy; <?=date('Y')?> </li><li>Design: <a target="_BLANK" href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
-							</ul>
 						</div>
 					</footer>
 			</div>
