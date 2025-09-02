@@ -6,7 +6,7 @@
 						<p><span class="image left"><img src="<?=$theme_uri?>images/superhost1.jpg" alt="<?=$alt?>" width="unset" /></span>Below, you can contact us by phone or email about our rentals, co-hosting service, or property management services. Once again, thank you for the opportunity to do business in the future!</p>
 
 						<section style="clear: both;"></section>
-								
+
 					</div>
 				</section>
 
