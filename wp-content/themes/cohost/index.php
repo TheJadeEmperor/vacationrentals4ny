@@ -34,21 +34,17 @@ include('header.php');
 								</ul>
 							</div>
 						</section>
-
-
+ 
 						<section id="about_team">
 							<div class="inner">
 								<h4>Meet Your Co-hosts</h4>
-								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="<?=$theme_uri?>images/profile.jpg" alt="<?=$alt?>" /></a></span>I'm Benjamin, a dedicated and experienced Airbnb & Vrbo host with a mission for creating unforgettable stays for my guests. Over the past few years, I've had the pleasure of hosting travelers from all over the world, and I'm proud to have earned <b>Superhost</b> status, a testament to my commitment to going the <b>extra mile</b> to make sure my guests feel at home. </p>
+								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="<?=$theme_uri?>images/profile.jpg" alt="<?=$alt?>" /></a></span>I'm Benjamin, a dedicated and experienced STR property manager with a mission for creating unforgettable stays for my guests. For many years, I've had the pleasure of hosting travelers from all over the world, and I have traveled around the world and stayed at Airbnbs around the world. Because of the diversity of my experiences, I am able to speak four languages: English, Cantonese, Mandarin and Japanese.</p>
 
 								<p>I began my short-term rental journey with a simple goal: to pay the bills. What started as a necessity quickly turned into a <b>passion</b> as I discovered the joy of hosting and meeting new people from different cultures. Not only do I talk to my guests, but I also give them tours, if they wish to have one, of cultural hotspots in Brooklyn and NYC.</p>
 
 								<p><span class="image right"><img src="<?=$theme_uri?>images/superhost.jpg" alt="<?=$alt?>" /></span>As a homeowner & landlord living in NYC I know about the challenges of long term rentals. I've been featured in an article from the <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">NYPOST here.</a> If you are a New York landlord and currently doing long term rentals, then you should know about the difficulties of non-paying tenants and squatters. If you are open to short term rentals, then please contact our team using the form below. We will be happy to explain the benefits of STR vs long term. </p>
 
 								<p>If you are a property owner who is currently doing STR and want to <b>raise your revenue</b>, or looking for a property manager to run your rental business for you, please contact our team using the form below.</p>
-
-
-								 
 
 								<ul class="actions">
 									<li><a href="#services" class="button next scrolly">Our Services</a></li>
@@ -105,9 +101,9 @@ include('header.php');
 							<div class="content">
 							<div class="inner">
 								<header class="major">
-									<h3 id="marketing">Revenue Management</h3>
+									<h3 id="marketing">Revenue Strategy</h3>
 								</header>
-								<p>We use data from different pricing tools to optimize the balance between nightly price and occupancy so you can increase your bottom line. On average we helped our clients increase their revenue by 20%, sometimes even 30%. </p>
+								<p>We use data from different pricing tools to optimize the balance between nightly price and occupancy so you can increase your bottom line. On average we helped our clients increase their revenue by 18%, sometimes even 25%. </p>
 								<ul class="actions">
 									<li><a href="#contact" class="button primary fit scrolly">Contact Us</a></li>
 								</ul>
