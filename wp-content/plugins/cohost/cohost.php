@@ -10,7 +10,7 @@ function lead_admin_menu() {
     add_menu_page(
         'Power Dialer', //page name
         'Power Dialer', //menu name
-        'manage_options', // capability required for this menu to be displayed to user
+        'edit_posts', // capability required for this menu to be displayed to user
         'power-dialer', // url slug
         'power_dialer_pg', //callback function 
         '',
@@ -26,7 +26,7 @@ function sales_admin_menu() {
     add_menu_page(
         'Sales Training',
         'Sales Training',
-        'manage_options',
+        'edit_posts',
         'sales-training',
         'sales_training_pg',
         '',
@@ -37,7 +37,7 @@ function sales_admin_menu() {
         'sales-training',
         'Sales Calls',
         'Sales Calls',
-        'manage_options',
+        'edit_posts',
         'sales-call',
         'sales_call_pg'
     );
