@@ -1,238 +1,159 @@
 <?php
 /*
-Plugin Name: Property Hub
-Description: A simple plugin to add a page in the admin panel and save two text fields into a custom table, vertically like wp_options.
+Plugin Name: Sales Training pages
+Description: add pages to the admin panel for sales training and reviewing sales calls
 Version: 0.1
-
-  
-
 */
 
-global $property_hub_fields;
- $property_hub_fields = [
-    'prop_hub_addr' => 'Address',
-    'prop_hub_b_b' => 'Guests-Bedrooms-Bathrooms',
-    'prop_hub_nickname' => 'Prop Nickname',
-    'prop_hub_airbnb_url'  => 'Prop Nickname',
-    'prop_hub_wifi' => 'prop_hub_wifi',
-    'prop_hub_door_code' => 'prop_hub_door_code',
-    'prop_hub_trash' => 'prop_hub_trash',
-    'prop_hub_owner_name' => 'prop_hub_owner_name',
-    'prop_hub_owner_phone' => 'prop_hub_owner_phone',
-    'prop_hub_owner_email' => 'prop_hub_owner_email',
-    'prop_hub_owner_report' => 'prop_hub_owner_report',
-    'prop_hub_cleaner' => 'prop_hub_cleaner',
-    'prop_hub_doorlock' => 'prop_hub_doorlock',
-    'prop_hub_ring' => 'prop_hub_ring',
-    'prop_hub_noise' => 'prop_hub_noise',
-    'prop_hub_pets' => 'prop_hub_pets',
-    'prop_hub_notes' => 'prop_hub_notes',
-];
-
-// Create custom table on plugin activation
-function property_hub_create_table() {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'property_hub';
-
-    $charset_collate = $wpdb->get_charset_collate();
-
-    echo $sql = "CREATE TABLE $table_name (
-        id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
-        prop_id INT(11) NOT NULL,
-        option_name VARCHAR(255) NOT NULL,
-        option_value TEXT DEFAULT NULL,
-        PRIMARY KEY  (id),
-        KEY prop_id (prop_id),
-        KEY option_name (option_name)
-    ) $charset_collate;";
-
-    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
-    dbDelta($sql);
-}
-register_activation_hook( __FILE__, 'property_hub_create_table' );
-
-
-
-// Add menu item
-function onboarding_add_admin_menu() {
+// Power Dialer & address analyst
+function lead_admin_menu() {
     add_menu_page(
-        'Onboarding',
-        'Onboarding Checklist',
-        'manage_options',
-        'onboarding',
-        'onboarding',
+        'Power Dialer', //page name
+        'Power Dialer', //menu name
+        'manage_options', // capability required for this menu to be displayed to user
+        'power-dialer', // url slug
+        'power_dialer_pg', //callback function 
         '',
-        3
+        3 //menu order
     );
 }
-add_action('admin_menu', 'onboarding_add_admin_menu');
-// Add menu item
-function property_hub_add_admin_menu() {
+
+
+add_action('admin_menu', 'lead_admin_menu');
+ 
+// Sales training & sales call 
+function sales_admin_menu() {
     add_menu_page(
-        'Property Hub',
-        'Property Hub',
+        'Sales Training',
+        'Sales Training',
         'manage_options',
-        'property-hub',
-        'property_hub_settings_page',
+        'sales-training',
+        'sales_training_pg',
         '',
         4
     );
 
     add_submenu_page(
-        'property-hub',
-        'NY - 2037 Coyle Street',
-        'NY - 2037 Coyle Street',
+        'sales-training',
+        'Sales Calls',
+        'Sales Calls',
         'manage_options',
-        'property-hub&prop_id=1',
-        'property_hub_settings_page'
+        'sales-call',
+        'sales_call_pg'
     );
-
-    add_submenu_page(
-        'property-hub',
-        'PA - 105 Pine Cone Ln',
-        'PA - 105 Pine Cone Ln',
-        'manage_options',
-        'property-hub&prop_id=2',
-        'property_hub_settings_page'
-    );
-
-    add_submenu_page(
-        'property-hub',
-        'PA - 3262 Birch Hill Dr, Tannersville',
-        'PA - 3262 Birch Hill Dr, Tannersville',
-        'manage_options',
-        'property-hub&prop_id=3',
-        'property_hub_settings_page'
-    );
+ 
 }
-add_action('admin_menu', 'property_hub_add_admin_menu');
+add_action('admin_menu', 'sales_admin_menu');
 
-
-
-
-
-
-// Handle form submit
-function property_hub_handle_form($prop_id) {
-    if (isset($_POST['property_hub_submit'])) {
-        if (!current_user_can('manage_options')) {
-            return;
-        }
-
-        global $wpdb;
-        $table_name = $wpdb->prefix . 'property_hub';
-
-        $fields = [
-            'prop_hub_addr' => sanitize_text_field($_POST['prop_hub_addr']),
-            'prop_hub_b_b' => sanitize_text_field($_POST['prop_hub_b_b']),
-        ];
-
-        foreach ($fields as $option_name => $option_value) {
-            $existing = $wpdb->get_var($wpdb->prepare(
-                "SELECT id FROM $table_name WHERE prop_id = %d AND option_name = %s",
-                $prop_id, $option_name
-            ));
-
-            if ($existing) {
-                $wpdb->update(
-                    $table_name,
-                    ['option_value' => $option_value],
-                    ['prop_id' => $prop_id, 'option_name' => $option_name]
-                );
-            } else {
-                $wpdb->insert(
-                    $table_name,
-                    [
-                        'prop_id' => $prop_id,
-                        'option_name' => $option_name,
-                        'option_value' => $option_value,
-                    ]
-                );
-            }
-        }
-
-        echo '<div class="updated"><p>Settings saved.</p></div>';
-    }
-}
-
-add_action('admin_init', 'property_hub_handle_form');
-
-
-function property_hub_get_fields($prop_id) {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'property_hub';
-
-    // Fetch all fields for the given prop_id
-    $results = $wpdb->get_results(
-        $wpdb->prepare(
-            "SELECT option_name, option_value FROM $table_name WHERE prop_id = %d",
-            $prop_id
-        ),
-        OBJECT_K
-    );
-
-    $fields = [];
-
-    // Map results into simple array: ['fieldname' => 'value']
-    if (!empty($results)) {
-        foreach ($results as $option_name => $data) {
-            $fields[$option_name] = $data->option_value;
-        }
-    }
-
-    return $fields;
-}
-
-
-function property_hub_settings_page() {
-    if (!current_user_can('manage_options')) {
-        return;
-    }
-
-    global $property_hub_fields;
-
-    $prop_id = isset($_GET['prop_id']) ? intval($_GET['prop_id']) : 1; // default to 1 if missing
-
-    property_hub_handle_form($prop_id);
-
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'property_hub';
+ 
  
 
-    $fields = property_hub_get_fields($prop_id);
+function sales_training_pg() {
 
-    //print_r($fields);
+?>
+
+<div class="wrap">
+    <h1>Training vids & guides</h1>
+    <a href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
+    ">https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
+    </a>
+
+</div>
+
+<?php 
+ 
+}
+
+function sales_call_pg () {
+
+    $salesCall = array(
+        '4/2/1 | Brigantine, NJ | Shelly Lappi' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1kDHd36MFZ314DARgX3puIWrAXfkRYAFY?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/E_xwGB_gw8U?si=l2aexyYcCo32gIQ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '14/6/4.5 | R Beach, DE | Mike McCormick' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/14LBXpXG-FqfxNjAu3z5t7GWrSFUZO9Ox?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/mjRm3vOO0gU?si=UyOBeZfT3N03ZOMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '8/4/2.5 | Tobyhanna, PA | Rosemary' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1EKcNfrhrzY5zAxtwHJ6L_Y7Sbr6G2zJ9?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/b9QfxBoKCNU?si=xwMUzMbw1icTbrCZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> '
+        ),
+        '10/3/2 | Greentown, PA | Jennifer' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1cJdntP-7jUPX9Q_BGzx06qmuGJJgq1u8?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/BsxNT8MYcmc?si=xnn4GEzzezL2vVxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '10/4/3.5 | Tannersville, PA | Cesarina ' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1Y1lnnEe584ETxyqw1swXmC8zFhmiqV6_?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/cQTdDgKlZs4?si=do3F8KimYdAObNkW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '11/3/2.5 | Monroe, PA | Jolanta' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1CcCfi8ZC1MhIcoHL6s_lZEOYicufSsge?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/YEnUAD3cdek?si=PLoFTAfX9BQtne2v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '5/3/1 | Lansdowne, PA | Ellen Cooper' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/1A3qlRdhIO_lZTda_O628OLeXa67O6CJB?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/GXqMrN2KzCI?si=40xDlmsDQykcKMTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '11/4/2.5 | Monroe, PA | Bruce (Practice) 1' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/11lud0vsc-7mx0-Y-mXcOWR8QwB01qoFu?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/5hD6tbg6gsg?si=8vUU5i38uqLPKRAx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+        '11/4/2.5 | Monroe, PA | Bruce (Practice) 2' => array(
+            'transcript' => 'https://drive.google.com/drive/folders/11lud0vsc-7mx0-Y-mXcOWR8QwB01qoFu?usp=drive_link',
+            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/K78pWkvlLrc?si=AlXZBYbYHh00sCpr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        ),
+    );
+
+?>
+
+    <h1>Sales Calls</h1>
+    <p>
+    All meeting notes in google drive <a target="_BLANK" href="https://drive.google.com/drive/folders/1L-2jycsplYEh3vPZkvfuBXzhlvPBgADD?usp=sharing">https://drive.google.com/drive/folders/1L-2jycsplYEh3vPZkvfuBXzhlvPBgADD?usp=sharing</a>
+    </p>
+    <div class="wrap">
+
+<?php
+
+    foreach($salesCall as $name => $sc) {
+        echo '<h2>'.$name.'</h2>
+        
+        <p>'.$sc['embedCode'].'</p>
+        
+        <p><a href="'.$sc['transcript'].'" target="_BLANK">Transcript & notes</a></p>
+';
+    }
 
     ?>
+     
+</div>
 
-    <div class="wrap">
-        <h1><?php  echo "#".esc_html($prop_id)." | ". esc_attr($fields['prop_hub_addr'])." | ".esc_attr($fields['prop_hub_b_b']); ?></h1>
-        <form method="post" action="">
-            <?php wp_nonce_field('property_hub_settings_nonce_action_' . $prop_id, 'property_hub_settings_nonce_field_' . $prop_id); ?>
+<?php
+}
+
+function power_dialer_pg() {
+    ?>
+<div class="wrap">
+    <h1>Power Dialer</h1>
+
+    <p>Welcome to our power dialer position. Below you will find our scripts and trainings </p>
+
+    <p>Cold Call Scripts</p>
+
+    <p><a target="_BLANK" href="https://drive.google.com/drive/folders/1vYQLa272dzjUdnllnQyAd-0k-mgxkuMJ?usp=drive_link">https://drive.google.com/drive/folders/1vYQLa272dzjUdnllnQyAd-0k-mgxkuMJ?usp=drive_link</a></p>
+
+    <p>Dailing training vids</p>
+    <p><a target="_BLANK" href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link">https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link</a></p>
 
 
-<?php foreach ($property_hub_fields as $field_name => $label) : ?>
-    <p>
-        <label for="<?php echo esc_attr($field_name); ?>"><?php echo esc_html($label); ?></label><br>
-        <input type="text" id="<?php echo esc_attr($field_name); ?>" name="<?php echo esc_attr($field_name); ?>" value="<?php echo esc_attr($fields[$field_name] ?? ''); ?>" class="regular-text">
-    </p>
-<?php endforeach; ?>
 
-            <table class="form-table">
-                <tr valign="top">
-                    <th scope="row">Address</th>
-                    <td><input type="text" name="prop_hub_addr" value="<?php echo esc_attr($fields['prop_hub_addr']); ?>" class="regular-text" /></td>
-                </tr>
-                <tr valign="top">
-                    <th scope="row">Guests-Bedrooms-Bathrooms</th>
-                    <td><input type="text" name="prop_hub_b_b" value="<?php echo esc_attr($fields['prop_hub_b_b']); ?>" class="regular-text" /></td>
-                </tr>
-            </table>
-
-            <?php submit_button('Save Settings', 'primary', 'property_hub_submit'); ?>
-        </form>
-    </div>
-    <?php
+    <p>STR-Business-Ultimate-Guide</p>
+   
+    <p> A guide written by Hospitable. Recommended reading for those who want to learn more about the STR industry. This may also give you insights to answer a client's questions. </p>
+ 
+    <p><a target="_BLANK" href=" https://drive.google.com/file/d/1pggtkz2IsHj7JeJM-7iZvVkj0VC8TwLS/view?usp=drive_link">https://drive.google.com/file/d/1pggtkz2IsHj7JeJM-7iZvVkj0VC8TwLS/view?usp=drive_link</a></p>
+</div>
+<?php 
 }
 
 ?>
