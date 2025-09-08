@@ -18,7 +18,6 @@ function lead_admin_menu() {
     );
 }
 
-
 add_action('admin_menu', 'lead_admin_menu');
  
 // Sales training & sales call 
@@ -54,9 +53,10 @@ function sales_training_pg() {
 
 <div class="wrap">
     <h1>Training vids & guides</h1>
-    <a href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
+
+    <p><a href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
     ">https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
-    </a>
+    </a></p>
 
 </div>
 
@@ -77,11 +77,11 @@ function sales_call_pg () {
         ),
         '8/4/2.5 | Tobyhanna, PA | Rosemary' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1EKcNfrhrzY5zAxtwHJ6L_Y7Sbr6G2zJ9?usp=drive_link',
-            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/b9QfxBoKCNU?si=xwMUzMbw1icTbrCZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> '
+            'embedCode' => 'https://drive.google.com/file/d/1yUC8D8SGDLnQCQVWGWjZi4MN8FNdrxn3/view?usp=drive_link'
         ),
         '10/3/2 | Greentown, PA | Jennifer' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1cJdntP-7jUPX9Q_BGzx06qmuGJJgq1u8?usp=drive_link',
-            'embedCode' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/BsxNT8MYcmc?si=xnn4GEzzezL2vVxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+            'embedCode' => 'https://drive.google.com/file/d/1nVlXf4TGd6MjHf7TJmOk4kQ8If29knI-/view?usp=drive_link'
         ),
         '10/4/3.5 | Tannersville, PA | Cesarina ' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1Y1lnnEe584ETxyqw1swXmC8zFhmiqV6_?usp=drive_link',
