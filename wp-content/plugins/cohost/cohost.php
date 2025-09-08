@@ -45,7 +45,6 @@ function sales_admin_menu() {
 add_action('admin_menu', 'sales_admin_menu');
 
  
- 
 
 function sales_training_pg() {
 
@@ -54,9 +53,22 @@ function sales_training_pg() {
 <div class="wrap">
     <h1>Training vids & guides</h1>
 
-    <p><a href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
+    <p><a target="_BLANK" href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
     ">https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link
     </a></p>
+
+
+    <h1>Handling Objections - cold call & sales call</h1>
+    <p><a target="_BLANK" href="https://drive.google.com/file/d/1wt0bOwN8ra5mPzDN2QSj5_1gWWOTN8A4/view?usp=drive_link
+    ">https://drive.google.com/file/d/1wt0bOwN8ra5mPzDN2QSj5_1gWWOTN8A4/view?usp=drive_link
+    </a></p>
+
+    <h1>How to negotiate the mgmt fee</h1>
+    <p><a target="_BLANK" href="https://drive.google.com/file/d/1g7JvF1HKgXhwqb9Lmp0eqg9104uIeUBS/view?usp=drive_link
+    ">https://drive.google.com/file/d/1g7JvF1HKgXhwqb9Lmp0eqg9104uIeUBS/view?usp=drive_link
+    </a></p>
+
+
 
 </div>
 
@@ -77,11 +89,11 @@ function sales_call_pg () {
         ),
         '8/4/2.5 | Tobyhanna, PA | Rosemary' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1EKcNfrhrzY5zAxtwHJ6L_Y7Sbr6G2zJ9?usp=drive_link',
-            'embedCode' => 'https://drive.google.com/file/d/1yUC8D8SGDLnQCQVWGWjZi4MN8FNdrxn3/view?usp=drive_link'
+            'embedCode' => '<a target="_BLANK" href="https://drive.google.com/file/d/1yUC8D8SGDLnQCQVWGWjZi4MN8FNdrxn3/view?usp=drive_link">https://drive.google.com/file/d/1nVlXf4TGd6MjHf7TJmOk4kQ8If29knI-/view?usp=drive_link</a>'
         ),
         '10/3/2 | Greentown, PA | Jennifer' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1cJdntP-7jUPX9Q_BGzx06qmuGJJgq1u8?usp=drive_link',
-            'embedCode' => 'https://drive.google.com/file/d/1nVlXf4TGd6MjHf7TJmOk4kQ8If29knI-/view?usp=drive_link'
+            'embedCode' => '<a target="_BLANK" href="https://drive.google.com/file/d/1nVlXf4TGd6MjHf7TJmOk4kQ8If29knI-/view?usp=drive_link">https://drive.google.com/file/d/1nVlXf4TGd6MjHf7TJmOk4kQ8If29knI-/view?usp=drive_link</a>'
         ),
         '10/4/3.5 | Tannersville, PA | Cesarina ' => array(
             'transcript' => 'https://drive.google.com/drive/folders/1Y1lnnEe584ETxyqw1swXmC8zFhmiqV6_?usp=drive_link',
@@ -142,14 +154,13 @@ function power_dialer_pg() {
 
     <p><a target="_BLANK" href="https://drive.google.com/drive/folders/1vYQLa272dzjUdnllnQyAd-0k-mgxkuMJ?usp=drive_link">https://drive.google.com/drive/folders/1vYQLa272dzjUdnllnQyAd-0k-mgxkuMJ?usp=drive_link</a></p>
 
-    <p>Dailing training vids</p>
+    <p>Dialing training vids</p>
     <p><a target="_BLANK" href="https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link">https://drive.google.com/drive/folders/1bqj6vWUCHvW9Wk5KSSCcWHB0NK7BFCQH?usp=drive_link</a></p>
-
 
 
     <p>STR-Business-Ultimate-Guide</p>
    
-    <p> A guide written by Hospitable. Recommended reading for those who want to learn more about the STR industry. This may also give you insights to answer a client's questions. </p>
+    <p> Written by Hospitable, highly recommended reading for those who want to learn more about the STR industry. This may also give you insights to answer a client's questions. </p> 
  
     <p><a target="_BLANK" href=" https://drive.google.com/file/d/1pggtkz2IsHj7JeJM-7iZvVkj0VC8TwLS/view?usp=drive_link">https://drive.google.com/file/d/1pggtkz2IsHj7JeJM-7iZvVkj0VC8TwLS/view?usp=drive_link</a></p>
 </div>
