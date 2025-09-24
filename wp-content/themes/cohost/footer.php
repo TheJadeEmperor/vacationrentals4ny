@@ -35,7 +35,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3>
-										<span>570-232-3714</span>
+										<span>570-260-6473</span>
 									</div>
 								</section>
 								<section> 
@@ -61,7 +61,7 @@
 
 								<li><a target="_BLANK" href="https://nypost.com/2025/04/23/us-news/brooklyn-protesters-camping-24-7-outside-proposed-homeless-shelter/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li> 
 							</ul> 
-
+       
 							<ul class="icons">
 								<li>Little Book Stays &copy; <?=date('Y')?> </li>
 								<li>Design: <a target="_BLANK" href="https://benjaminlouie.com" target="_BLANK">BL Web Solutions</a></li>
