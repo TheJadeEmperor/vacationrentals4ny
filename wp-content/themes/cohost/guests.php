@@ -112,15 +112,14 @@
 			<header class="major">
 				<h2>New York Tours</h2>
 			</header>
-			<p>Click on the links below to book and schedule the tour.  </p>
+			<p>Click on the links below to book and schedule the tour. Except the Sheepshead Bay Tour, all tours are handled by a third party tour service. </p>
 		</div>
 	</section>
-
-	
+ 
 	<section id="coney" class="spotlights">
 		<!--statue of liberty-->	
 		<section>
-			<a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="image">
+			<a target="_BLANK" href="https://vi.me/HAhxW" class="image">
 				<img src="<?=$theme_uri?>images/services/statue.jpg" $alt="<?=$alt?>" data-position="top center" />
 			</a>
 			<div class="content">
@@ -130,8 +129,8 @@
 					</header>
 					<p>Experience three of New York City’s top sights on this tour to the Statue of Liberty, Ellis Island, and the 9/11 Memorial. Start with an expedited ferry ride to Lady Liberty, followed by Ellis Island, to learn about the immigrant experience. Return to Lower Manhattan to tour the 9/11 Memorial. This guided tour offers a hassle-free way to see more in half a day. Admire the city skyline views on your ferry ride across the harbor - Includes entry fees and a ferry ride for your convenience - Upgrade to include a ticket to the 9/11 Museum - Learn more about each attraction by going with a guide</li> </p>
 					<ul class="actions">
-						<li><a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="scrolly button">Read More</a></li>
-						<li><a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="scrolly button primary">Book this Tour</a></li>
+						<li><a target="_BLANK" href="https://vi.me/HAhxW" class="scrolly button">Read More</a></li>
+						<li><a target="_BLANK" href="https://vi.me/HAhxW" class="scrolly button primary">Book this Tour</a></li>
 					</ul>
 				</div>
 			</div>
@@ -139,7 +138,7 @@
 
 		<!--the met-->
 		<section>
-			<a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="image">
+			<a target="_BLANK" href="https://vi.me/gPswD" class="image">
 				<img src="<?=$theme_uri?>images/services/met.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
 			</a>
 			<div class="content">
@@ -149,8 +148,8 @@
 					</header>
 						<p>Make the most of your time at New York City's legendary arts museum on this private or small-group tour of the Metropolitan Museum of Art. Housing more than 2 million items, the Met can be overwhelming to explore. Let your professional guide show you the highlights, from paintings to pop culture memorabilia, and concentrate on the museum sections that interest you most.Pick between small-group or private tour to fit your preferences - Save time with the included skip-the-line admission ticket - Learn the stories behind the artworks from your professional guide - Choice of tour times make it easy to fit in your schedule </p>
 						<ul class="actions">
-							 <li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button">Read More</a></li>
-							<li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button primary">Book this Tour</a></li>
+							 <li><a target="_BLANK" href="https://vi.me/gPswD" class="scrolly button">Read More</a></li>
+							<li><a target="_BLANK" href="https://vi.me/gPswD" class="scrolly button primary">Book this Tour</a></li>
 						</ul>
 					</div>
 				</div>
@@ -158,18 +157,18 @@
 
 		<!-- 911 tour -->
 		<section>
-			<a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14" class="image">
+			<a  target="_BLANK" href="https://vi.me/dN30B" class="image">
 				<img src="<?=$theme_uri?>images/services/911.jpg" $alt="<?=$alt?>" data-position="top center" />
 			</a>
 			<div class="content">
 				<div class="inner">
 					<header class="major">
-						<h3>All-Access 9/11: Ground Zero Tour, Memorial and Museum, One World Observatory</h3>
+						<h3>All-Access 9/11: Ground Zero Tour & One World Observatory</h3>
 					</header>
 					<p>Learn more about the events of September 11, 2001, on this guided tour of Ground Zero, the 9/11 Memorial and Museum, and the One World Observatory. Get a deeper understanding of the events of that day from your local guide, who will share first-hand stories. Get skip-the-line access to the 9/11 Museum and Memorial, and admire panoramic New York City views from the observatory. Walk where the former World Trade Center once stood - Select a morning or afternoon tour to suit your schedule -  Watch a documentary film in the lobby of the Freedom Tower - Learn more about 9/11 than you would visiting the sites alone</li> </p>
 					<ul class="actions">
-						<li><a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14?mcid=56757" class="scrolly button">Read More</a></li>
-						<li><a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14?mcid=56757" class="scrolly button primary">Book this Tour</a></li>
+						<li><a  target="_BLANK" href="https://vi.me/dN30B" class="scrolly button">Read More</a></li>
+						<li><a  target="_BLANK" href="https://vi.me/dN30B" class="scrolly button primary">Book this Tour</a></li>
 					</ul>
 				</div>
 			</div>
@@ -189,7 +188,7 @@
 					<p>Staying in a foreign place can be quite scary, especially if you are from out of the country. If you choose this option, we can show you the local area around the property. We will show you where the laundromats are, as well as local restaurants, parks, gyms, and essential services such as police dept and fire dept. Also we will show you how to take the bus and train to get around. This tour is for you, so feel free to make requests during the tour.</p>
 					<ul class="actions">
 							
-						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book with Us</a></li>
+						<li><a title="$88" href="mailto:<?=$adminEmail?>" class="button primary fit">Book with Us</a></li>
 					</ul>
 				</div>
 			</div>
