@@ -110,9 +110,9 @@
 	<section id="tours">
 		<div class="inner">
 			<header class="major">
-				<h2>Brooklyn Tours</h2>
+				<h2>New York Tours</h2>
 			</header>
-			<p>Check out our Brooklyn Tours below. You can register for a private tour by adding a booking on the calendar. After the tour has concluded, you will receive the tour fee on Airbnb under "extra services". </p>
+			<p>Click on the links below to book and schedule the tour.  </p>
 		</div>
 	</section>
 
