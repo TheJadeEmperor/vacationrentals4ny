@@ -116,42 +116,44 @@
 		</div>
 	</section>
 
+	
 	<section id="coney" class="spotlights">
-			<section>
-				<a href="https://www.airbnb.com/experiences/4496855" class="image">
-					<img src="<?=$theme_uri?>images/coney.jpg" $alt="<?=$alt?>" data-position="top center" />
-				</a>
-				<div class="content">
+		<!--statue of liberty-->	
+		<section>
+			<a href="https://selector.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757" class="image">
+				<img src="<?=$theme_uri?>images/services/statue.jpg" $alt="<?=$alt?>" data-position="top center" />
+			</a>
+			<div class="content">
 				<div class="inner">
 					<header class="major">
-						<h3>Explore Brooklyn’s famous Coney Island</h3>
+						<h3>Statue of Liberty, Ellis Island & 9/11 Memorial Guided Tour</h3>
 					</header>
-					<p>Coney Island is famous for Luna Park and Nathan’s Famous Hotdogs. However, I show you what most people don’t know, which is the real Coney Island. We’ll head over to the Coney Island Museum, which most visitors don’t know about. Then we’ll go on the boardwalk to see the parachute tower and the pier and head back to Surf Ave. We will enter Luna Park and walk through it and enter the board walk again and have dinner and drinks. Please note: the day time tour does NOT include the fireworks and the nighttime tour does NOT include the museum, because the museum closes at 5pm. Please make sure you understand this point so there’s no confusion. </p>
+					<p>Experience three of New York City’s top sights on this tour to the Statue of Liberty, Ellis Island, and the 9/11 Memorial. Start with an expedited ferry ride to Lady Liberty, followed by Ellis Island, to learn about the immigrant experience. Return to Lower Manhattan to tour the 9/11 Memorial. This guided tour offers a hassle-free way to see more in half a day. Admire the city skyline views on your ferry ride across the harbor - Includes entry fees and a ferry ride for your convenience - Upgrade to include a ticket to the 9/11 Museum - Learn more about each attraction by going with a guide</li> </p>
 					<ul class="actions">
-						<li><a href="#contact" class="scrolly button">Book this Tour</a></li>
-						<li><a href="#contact" class="scrolly button primary ">Book for $89</a></li>
+						<li><a href="https://selector.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757" class="scrolly button">Book this Tour</a></li>
 					</ul>
 				</div>
 			</div>
-			</section>
+		</section>
 
-			<section>
-				<a href="https://www.airbnb.com/experiences/4496855" class="image">
-					<img src="<?=$theme_uri?>images/japan.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
-				</a>
-				<div class="content">
-					<div class="inner">
-						<header class="major">
-							<h3>Get a Taste Of Japan At Japan Village</h3>
-						</header>
-						<p>Firstly, we will enter Japan Village from the main entrance into the food hall. We will explore the supermarket, which has Japanese desserts like mochi, as well as the famous wagyu beef. There is also an area full of jinja (shrines) as well as a bridge for taking pictures. There’s also an anime store where you can buy manga and anime figurines. After Japan Village, we will explore the rest of Industry City’s rare vintage shops. For example, there is one shop that has foreign furniture; another has rare hats not available anywhere else. And after all that fun we will be hungry so we’ll get some fine Japanese cuisine to fill our stomachs. As a bonus, I will teach you some Japanese, if you want to learn. </p>
+		<!--the met-->
+		<section>
+			<a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="image">
+				<img src="<?=$theme_uri?>images/services/met.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>"The Met" Metropolitan Museum of Art Guided Tour</h3>
+					</header>
+						<p>Make the most of your time at New York City's legendary arts museum on this private or small-group tour of the Metropolitan Museum of Art. Housing more than 2 million items, the Met can be overwhelming to explore. Let your professional guide show you the highlights, from paintings to pop culture memorabilia, and concentrate on the museum sections that interest you most.Pick between small-group or private tour to fit your preferences - Save time with the included skip-the-line admission ticket - Learn the stories behind the artworks from your professional guide - Choice of tour times make it easy to fit in your schedule </p>
 						<ul class="actions">
-							<li><a href="#contact" class="scrolly button">Book this Tour</a></li>
-							<li><a  href="#contact" class="scrolly button primary">Book for $89</a></li>
+							 <li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button">Read More</a></li>
+							<li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button primary">Book for $132</a></li>
 						</ul>
 					</div>
 				</div>
-			</section>
+		</section>
 	</section>
 
 	<!-- Services -->
