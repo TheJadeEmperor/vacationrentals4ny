@@ -120,7 +120,7 @@
 	<section id="coney" class="spotlights">
 		<!--statue of liberty-->	
 		<section>
-			<a href="https://selector.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757" class="image">
+			<a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="image">
 				<img src="<?=$theme_uri?>images/services/statue.jpg" $alt="<?=$alt?>" data-position="top center" />
 			</a>
 			<div class="content">
@@ -130,7 +130,8 @@
 					</header>
 					<p>Experience three of New York City’s top sights on this tour to the Statue of Liberty, Ellis Island, and the 9/11 Memorial. Start with an expedited ferry ride to Lady Liberty, followed by Ellis Island, to learn about the immigrant experience. Return to Lower Manhattan to tour the 9/11 Memorial. This guided tour offers a hassle-free way to see more in half a day. Admire the city skyline views on your ferry ride across the harbor - Includes entry fees and a ferry ride for your convenience - Upgrade to include a ticket to the 9/11 Museum - Learn more about each attraction by going with a guide</li> </p>
 					<ul class="actions">
-						<li><a href="https://selector.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757" class="scrolly button">Book this Tour</a></li>
+						<li><a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="scrolly button">Read More</a></li>
+						<li><a href="https://www.viator.com/tours/New-York-City/Statue-of-Liberty-Ellis-Island-and-911-Memorial-Walking-Tour-with-Optional-Pedestal-Upgrade/d687-15081P17?mcid=56757&pid=P00271809&mcid=42383&medium=link&medium_version=selector" class="scrolly button primary">Book this Tour</a></li>
 					</ul>
 				</div>
 			</div>
@@ -149,29 +150,38 @@
 						<p>Make the most of your time at New York City's legendary arts museum on this private or small-group tour of the Metropolitan Museum of Art. Housing more than 2 million items, the Met can be overwhelming to explore. Let your professional guide show you the highlights, from paintings to pop culture memorabilia, and concentrate on the museum sections that interest you most.Pick between small-group or private tour to fit your preferences - Save time with the included skip-the-line admission ticket - Learn the stories behind the artworks from your professional guide - Choice of tour times make it easy to fit in your schedule </p>
 						<ul class="actions">
 							 <li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button">Read More</a></li>
-							<li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button primary">Book for $132</a></li>
+							<li><a href="https://selector.viator.com/tours/New-York-City/Private-Tour-of-the-Metropolitan-Museum-of-Art-in-New-York-City/d687-43656P1?mcid=56757" class="scrolly button primary">Book this Tour</a></li>
 						</ul>
 					</div>
 				</div>
 		</section>
-	</section>
 
-	<!-- Services -->
-	<section id="services">
-		<div class="inner">
-			<header class="major">
-				<h2>Other Services We Provide</h2>
-			</header>
-			<p>In addition to tours, we can provide the following services to make your stay impeccable. These services are for the Brooklyn location only.</p>
-		</div>
-	</section>
+		<!-- 911 tour -->
+		<section>
+			<a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14" class="image">
+				<img src="<?=$theme_uri?>images/services/911.jpg" $alt="<?=$alt?>" data-position="top center" />
+			</a>
+			<div class="content">
+				<div class="inner">
+					<header class="major">
+						<h3>All-Access 9/11: Ground Zero Tour, Memorial and Museum, One World Observatory</h3>
+					</header>
+					<p>Learn more about the events of September 11, 2001, on this guided tour of Ground Zero, the 9/11 Memorial and Museum, and the One World Observatory. Get a deeper understanding of the events of that day from your local guide, who will share first-hand stories. Get skip-the-line access to the 9/11 Museum and Memorial, and admire panoramic New York City views from the observatory. Walk where the former World Trade Center once stood - Select a morning or afternoon tour to suit your schedule -  Watch a documentary film in the lobby of the Freedom Tower - Learn more about 9/11 than you would visiting the sites alone</li> </p>
+					<ul class="actions">
+						<li><a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14?mcid=56757" class="scrolly button">Read More</a></li>
+						<li><a href="https://selector.viator.com/tours/New-York-City/All-Access-9-11-Experience-Ground-Zero-Tour-9-11-Memorial-and-Museum-One-World-Observatory/d687-5250P14?mcid=56757" class="scrolly button primary">Book this Tour</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 
-	<section id="services1" class="spotlights">
-			<section>
-				<a href="mailto:<?=$adminEmail?>" class="image">
-					<img src="<?=$theme_uri?>images/services/tour.jpg" $alt="<?=$alt?>" data-position="top center" />
-				</a>
-				<div class="content">
+
+		<!-- local tour -->
+		<section>
+			<a href="mailto:<?=$adminEmail?>" class="image">
+				<img src="<?=$theme_uri?>images/services/tour.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
+			</a>
+			<div class="content">
 				<div class="inner">
 					<header class="major">
 						<h3>Tour of Local Neighborhood</h3>
@@ -179,44 +189,12 @@
 					<p>Staying in a foreign place can be quite scary, especially if you are from out of the country. If you choose this option, we can show you the local area around the property. We will show you where the laundromats are, as well as local restaurants, parks, gyms, and essential services such as police dept and fire dept. Also we will show you how to take the bus and train to get around. This tour is for you, so feel free to make requests during the tour.</p>
 					<ul class="actions">
 							
-						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $49</a></li>
+						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book with Us</a></li>
 					</ul>
 				</div>
 			</div>
 			</section>
+	</section>
 
-			<section>
-				<a href="mailto:<?=$adminEmail?>" class="image">
-					<img src="<?=$theme_uri?>images/services/housekeeping.jpg" $alt="<?=$alt?>" data-position="25% 25%" />
-				</a>
-				<div class="content">
-					<div class="inner">
-						<header class="major">
-							<h3>Housekeeping</h3>
-						</header>
-						<p>Upon request, we can do housekeeping during your stay. The price depends on the frequency of cleanings. Choose this option and feel like you're coming to a clean, fresh home. When you are on vacation mode, the last thing you want to worry about is cleaning, taking out the trash, etc. This service is $39 per cleaning. </p>
-						<ul class="actions">
-							<li><a href="#contact" class="scrolly button">Book with Us</a></li> 
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<a href="mailto:<?=$adminEmail?>" class="image">
-					<img src="<?=$theme_uri?>images/services/trainer.jpg" $alt="<?=$alt?>" data-position="top center" />
-				</a>
-				<div class="content">
-				<div class="inner">
-					<header class="major">
-						<h3>Fitness Trainer</h3>
-					</header>
-					<p>This option is for those who want to stay fit even during a vacation. A fitness trainer will take you to the gym and will train you fo 1 hour to 1.5 hours. You can choose a weight lifting or cardio workout.</p>
-					<ul class="actions">
-						<li><a href="mailto:<?=$adminEmail?>" class="button primary fit">Book for $39</a></li>
-					</ul>
-				</div>
-			</div>
-			</section>
-	</section>	 
+ 
 </div>
