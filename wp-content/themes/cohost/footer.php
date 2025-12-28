@@ -34,8 +34,8 @@
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>570-260-6473</span>
+										<h3>Phone</h3> 
+										<span>680-328-0446</span>
 									</div>
 								</section>
 								<section> 
