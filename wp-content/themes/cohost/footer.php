@@ -35,7 +35,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3> 
-										<span>680-328-0446</span>
+										<span>620-678-9482</span>
 									</div>
 								</section>
 								<section> 
