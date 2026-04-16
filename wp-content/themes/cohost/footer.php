@@ -54,12 +54,11 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a target="_BLANK" href="https://www.instagram.com/benjaminsbook/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a target="_BLANK" href="mailto:<?=$adminEmail?>" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 								
 								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
-								<li><a target="_BLANK" href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li> 
-
-								<li><a target="_BLANK" href="https://nypost.com/2025/04/23/us-news/brooklyn-protesters-camping-24-7-outside-proposed-homeless-shelter/" class="icon brands alt fa-delicious"><span class="label">LinkedIn</span></a></li> 
+							
+								<li><a target="_BLANK" href="tel: 620-678-9482" class="icon solid alt fa-phone"><span class="label">Phone</span></a></li> 
 							</ul> 
        
 							<ul class="icons">
