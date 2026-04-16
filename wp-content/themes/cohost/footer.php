@@ -50,7 +50,7 @@
 						</div>
 					</section>
 
-				<!-- Footer -->
+					<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
@@ -58,7 +58,7 @@
 								
 								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
 							
-								<li><a target="_BLANK" href="tel:9206976889" class="icon solid alt fa-phone"><span class="label">Phone</span></a></li> 
+								<li><a target="_BLANK" href="tel:1-920-697-ss6889" class="icon solid alt fa-phone"><span class="label">Phone</span></a></li> 
 							</ul> 
        
 							<ul class="icons">
