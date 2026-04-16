@@ -35,7 +35,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3> 
-										<span>620-678-9482</span>
+										<span>920-697-6889</span>
 									</div>
 								</section>
 								<section> 
@@ -58,7 +58,7 @@
 								
 								<li><a target="_BLANK" href="./blog/" class="icon brands alt fa-blogger" ><span class="label">Blog</span></a></li>
 							
-								<li><a target="_BLANK" href="tel: 620-678-9482" class="icon solid alt fa-phone"><span class="label">Phone</span></a></li> 
+								<li><a target="_BLANK" href="tel:9206976889" class="icon solid alt fa-phone"><span class="label">Phone</span></a></li> 
 							</ul> 
        
 							<ul class="icons">
