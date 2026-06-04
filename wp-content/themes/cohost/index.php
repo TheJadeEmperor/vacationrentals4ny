@@ -8,11 +8,11 @@ include('header.php');
 							<span><?=date('m/d/Y') ?></span>
 							<header class="major">
 								
-								<h1>Attention Homeowners: Thank You</h1>
+								<h1>Are You Ready to Increase Your Bookings by 30%?</h1>
 							</header>
 							<div class="content">
-								<p>For considering us as your co-host or property manager in the near future</p>
-								<p>If you have questions or concerns use the <a href="#contact" class="scrolly">contact form</a> to contact us</p>
+								<p>We increase clients revenue by 21% on average</p>
+								<p>If you are tired of being treated like a number, read more
 								<ul class="actions">
 									<li><a href="#cohost" class="button next scrolly">Get Started</a></li>
 								</ul>
