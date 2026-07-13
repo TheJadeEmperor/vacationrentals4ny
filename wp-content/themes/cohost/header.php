@@ -1,10 +1,10 @@
 <?php
 $adminEmail = 'LittleBookStays@gmail.com'; 
 
-$keywords1 = $alt = 'Airbnb Property Management NY';
-$keywords2 = 'Vacation Rental Property Management NY';
-$keywords3 = 'Airbnb Property Management NJ';
-$keywords4 = 'Vacation Rental Property Management NJ';
+$keywords1 = $alt = 'Airbnb Property Management North Carolina';
+$keywords2 = 'Vacation Rental Property Management North Carolina';
+$keywords3 = 'Airbnb Property Management Haywood, NC';
+$keywords4 = 'Vacation Rental Property Management Haywood, NC';
 
 $menuHost = '<ul>
     <li><a href="/#banner" class="scrolly">Home</a></li>
@@ -14,13 +14,6 @@ $menuHost = '<ul>
     <li><a href="#contact" class="scrolly">Contact</a></li>
 </ul>';
 
-$menuGuest = '<ul>
-    <li><a href="#banner" class="scrolly">Home</a></li>
-    <li><a href="#brooklyn" class="scrolly">Brooklyn</a></li>
-    <li><a href="#tours" class="scrolly">Tours</a></li> 
-	<li><a href="/blog" class="scrolly">Blog</a></li>
-    <li><a href="#contact" class="scrolly">Contact</a></li>
-</ul>';
 
 $threeDotsMenu = '<ul class="actions stacked">
 	<li><a href="/" class="button primary fit scrolly">For Hosts</a></li>
@@ -41,11 +34,11 @@ $theme_uri = get_template_directory_uri().'/';
 
 
 function showDesc () {
-	echo "We are a boutique vacation rental company that specializes in airbnb property managment in the East Coast. Contact us to find out about our property management or cohosting services.";
+	echo "We are a boutique vacation rental company that specializes in airbnb property managment in PA and NC. Contact us to find out about our property management or cohosting services.";
 } 
 
 function showTitle () {
-	echo 'Little Book Stays | Airbnb Property Management | Airbnb Property Management Poconos | Airbnb Property Management North Carolina'; 
+	echo 'Little Book Stays | Airbnb Property Management | STR Property Management'; 
 }
 
 
