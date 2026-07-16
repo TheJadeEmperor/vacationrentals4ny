@@ -38,24 +38,35 @@ include('header.php');
 						<section id="about_team">
 							<div class="inner">
 								<h4>Meet Your Co-hosts</h4>
-								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="<?=$theme_uri?>images/profile.jpg" alt="<?=$alt?>" /></a></span>After managing his own Airbnb's and using other companies, Benjamin realized one thing: 
+								<p><span class="image left"><a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK"><img src="<?=$theme_uri?>images/profile.jpg" alt="<?=$alt?>" /></a></span>
+								
+								
+								<p><h3>A Property Manager Who Fights For You</h3>
+As featured in the New York Post, our founder has been a vocal national advocate for property rights and protecting housing providers from unfair regulations and tenant damage. Like most landlords, Benjamin thought long term renting was the way to go, but after tenants decided to stop paying and destroyed the property, Benjamin has decided to switch to short term rentals. 
+[ <a href="https://nypost.com/2024/03/16/us-news/landlords-whose-families-fled-communism-rip-ny-dems/?utm_source=twitter&utm_medium=social&utm_campaign=nypost_sitebuttons" target="_BLANK">Read the Feature Article</a> ]
+</p>
+
+
+<p>After managing his own Airbnb's and using other companies, Benjamin realized one thing: 
 property management companies make money by managing volume, not by optimizing individual properties.
-When he started consulting with Airbnb hosts, he saw the damage firsthand:<br />
+When he started consulting with Airbnb hosts, he saw the damage firsthand:<br /><br />
 * Hosts paying 35% in "hidden" fees (advertised as 10%) <br />
 * Property managers ghosting during critical moments<br />
 * Hosts giving up, assuming they weren't cut out for the business<br />
 The frustration was palpable. These were smart people. Good property owners. But they were stuck with partners who didn't care about their individual success.</p>
  
-<p>Benjamin realized something: Every problem these hosts faced had a solution. But<br /> solutions require attention. And attention doesn't scale.
+<p>Benjamin realized something: Every problem these hosts faced had a solution. But solutions require attention. And attention doesn't scale.
 You can't manage 10,000 properties and actually care about each one. The math doesn't work.<br />
 So he asked himself a different question: What if I only took 10 clients? Not 100. Not 1,000. Just 10.<br />
 What if I made money only when they made more money?<br />
 What if I actually visited each property and understood the market?<br />
-What if I responded in 24 hours instead of 5 days?</p>
+What if I responded in minutes instead of hours?</p>
 
 <p>Little Book Stays was born from that idea.
 It's not a property management empire. It's a boutique partnership model. We take exactly 10 clients per season because that's the limit of real attention and care.
 Every property gets visited. Every market gets analyzed. Every decision gets questioned. Every host gets a response in 24 hours. </p>
+
+
 
 								<ul class="actions">
 									<li><a href="#services" class="button next scrolly">Our Services</a></li>
